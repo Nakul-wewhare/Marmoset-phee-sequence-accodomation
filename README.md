@@ -8,13 +8,11 @@ The project tests whether common marmoset pairs converge in phee call sequence s
 
 The code here reproduces the main data processing, distance metrics, and linear mixed-effects models reported in the paper.
 
-⸻
-
 Data 
-• Raw audio (.wav) files are not included in this repository 
-• The analysis starts from: • call/sequence tables exported from Avisoft-SASLab Pro, 
-• spectral parameter tables exported from Raven Pro, and 
-• MFCCs computed in R using the BehaviouR pipeline (see manuscript Methods).
+Raw audio (.wav) files are not included in this repository 
+The analysis starts from: • call/sequence tables exported from Avisoft-SASLab Pro ( not included) 
+spectral parameter tables exported from Raven Pro, and 
+MFCCs computed in R using the BehaviouR pipeline (see manuscript Methods).
 
 If you want to rerun everything from scratch you will need: 
 1. A table of phee calls and sequences with:
@@ -30,7 +28,6 @@ If you want to rerun everything from scratch you will need:
 
 If you are only interested in reproducing the models and plots and the repository already includes data/processed/ CSVs, you can skip straight to the R and GLM-preprocessing steps below.
 
-⸻
 
 Analysis pipeline
 
@@ -50,7 +47,6 @@ Outputs :
 
 You should run this notebook first.
 
-⸻
 
 Spectral measurements & distances (script_2_spectral_measurements.ipynb)
 Main tasks: 
@@ -68,7 +64,6 @@ Metrics implemented (see manuscript “Call structure analysis”):
 
 Outputs: • data/processed/spectral_distances_by_metric.csv (one row per comparison × metric, with variables like focal_ID, partner_ID, stage, recipient_context, metric, distance).
 
-⸻
 
 Sequence metrics & distances (script_3_seq_measurements.ipynb)
 Main tasks:
@@ -83,7 +78,6 @@ Outputs: • data/processed/sequence_distances_by_metric.csv
 
 Again, one row per comparison × metric, to be combined with the spectral distances in the next step.
 
-⸻
 
 GLM / LMM preprocessing (script_4_GLM_preprocessing.ipynb)
 Main tasks: 
@@ -99,10 +93,10 @@ Main tasks:
 
 These files are what the R script mainly consumes.
 
-⸻
 
 Linear mixed-effects models & plots (R/script_5_R_LMM_model.R)
-Main tasks: • Load the prepared GLM input tables. 
+Main tasks: 
+• Load the prepared GLM input tables. 
 • Fit the LMMs described in the manuscript, separately for: 
 • Sequence structure — partner context 
 • Sequence structure — non-partner context 
@@ -120,3 +114,5 @@ Key points:
 • Diagnostic helpers: • dfbeta.R, glmm_stability.r, and diagnostic_fcns2.r provide functions for: 
 • influence diagnostics (DFBETAs), • stability checks for random-effects structures, • residual checks. 
 • Figures: • The script produces the coefficients for Figure 3 (effect of stage on repertoire distance, with 95% CIs) and any other summary plots. 
+
+
