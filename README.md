@@ -115,4 +115,3 @@ Key points:
 • influence diagnostics (DFBETAs), • stability checks for random-effects structures, • residual checks. 
 • Figures: • The script produces the coefficients for Figure 3 (effect of stage on repertoire distance, with 95% CIs) and any other summary plots. 
 
-
