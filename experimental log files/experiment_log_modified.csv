@@ -1,0 +1,223 @@
+file name,file type,equipment,hab_acc,period,ID_left,ID_right,day,month,year,experimenter,comments,Unnamed: 12,file_prefix,date,time,ID,Date_Time,session_number
+phees_2022-02-17_09-53-35_0000039,acoustic,USGH1,acc,before,Tabor,Nougatti,17,2,2022,AT/MM,,,phees,2022-02-17,09-53-35,0000039,2022-02-17 09:53:35,1
+trills_2022-02-17_09-53-37_0000039,acoustic,USGH2,acc,before,Tabor,Nougatti,17,2,2022,AT/MM,,,trills,2022-02-17,09-53-37,0000039,2022-02-17 09:53:37,1
+phees_2022-02-22_09-14-37_0000041,acoustic,USGH1,acc,before,Odin,Olympia,22,2,2022,AT/MM,,,phees,2022-02-22,09-14-37,0000041,2022-02-22 09:14:37,1
+trills_2022-02-22_09-14-39_0000041,acoustic,USGH2,acc,before,Odin,Olympia,22,2,2022,AT/MM,,,trills,2022-02-22,09-14-39,0000041,2022-02-22 09:14:39,1
+phees_2022-02-23_09-24-00_0000042,acoustic,USGH1,acc,before,Tabor,Lola,23,2,2022,AT/MM,,,phees,2022-02-23,09-24-00,0000042,2022-02-23 09:24:00,1
+trills_2022-02-23_09-24-02_0000042,acoustic,USGH2,acc,before,Tabor,Lola,23,2,2022,AT/MM,,,trills,2022-02-23,09-24-02,0000042,2022-02-23 09:24:02,1
+phees_2022-02-25_10-36-24_0000044,acoustic,USGH1,acc,before,Odin,Lola,25,2,2022,AT/MM,,,phees,2022-02-25,10-36-24,0000044,2022-02-25 10:36:24,1
+trills_2022-02-25_10-36-26_0000044,acoustic,USGH2,acc,before,Odin,Lola,25,2,2022,AT/MM,,,trills,2022-02-25,10-36-26,0000044,2022-02-25 10:36:26,1
+phees_2022-02-28_09-34-19_0000045,acoustic,USGH1,acc,before,Wuschel,Olympia,28,2,2022,AT/MM,,,phees,2022-02-28,09-34-19,0000045,2022-02-28 09:34:19,1
+trills_2022-02-28_09-34-20_0000045,acoustic,USGH2,acc,before,Wuschel,Olympia,28,2,2022,AT/MM,,,trills,2022-02-28,09-34-20,0000045,2022-02-28 09:34:20,1
+phees_2022-02-28_10-15-56_0000046,acoustic,USGH1,acc,before,Odin,Nougatti,28,2,2022,AT/MM,,,phees,2022-02-28,10-15-56,0000046,2022-02-28 10:15:56,1
+trills_2022-02-28_10-15-58_0000046,acoustic,USGH2,acc,before,Odin,Nougatti,28,2,2022,AT/MM,,,trills,2022-02-28,10-15-58,0000046,2022-02-28 10:15:58,1
+phees_2022-03-01_09-22-30_0000047,acoustic,USGH1,acc,before,Tabor,Olympia,1,3,2022,AT/MM,,,phees,2022-03-01,09-22-30,0000047,2022-03-01 09:22:30,1
+trills_2022-03-01_09-22-32_0000047,acoustic,USGH2,acc,before,Tabor,Olympia,1,3,2022,AT/MM,,,trills,2022-03-01,09-22-32,0000047,2022-03-01 09:22:32,1
+phees_2022-03-03_09-27-17_0000048,acoustic,USGH1,acc,before,Wuschel,Lola,3,3,2022,AT/MM,,,phees,2022-03-03,09-27-17,0000048,2022-03-03 09:27:17,1
+trills_2022-03-03_09-27-19_0000048,acoustic,USGH2,acc,before,Wuschel,Lola,3,3,2022,AT/MM,,,trills,2022-03-03,09-27-19,0000048,2022-03-03 09:27:19,1
+trills_2022-03-03_09-33-18_0000049,acoustic,USGH2,acc,before,Wuschel,Lola,3,3,2022,AT/MM,"Avisoft stopped recording again, trills devided in 2 parts, hands clapping to synchronize it as well.",,trills,2022-03-03,09-33-18,0000049,2022-03-03 09:33:18,1
+phees_2022-03-03_10-14-46_0000049,acoustic,USGH1,acc,before,Tabor,Nougatti,3,3,2022,AT/MM,,,phees,2022-03-03,10-14-46,0000049,2022-03-03 10:14:46,2
+trills_2022-03-03_10-14-47_0000050,acoustic,USGH2,acc,before,Tabor,Nougatti,3,3,2022,AT/MM,,,trills,2022-03-03,10-14-47,0000050,2022-03-03 10:14:47,2
+phees_2022-03-04_09-21-06_0000051,acoustic,USGH1,acc,before,Odin,Olympia,4,3,2022,AT/MM,,,phees,2022-03-04,09-21-06,0000051,2022-03-04 09:21:06,2
+trills_2022-03-04_09-21-08_0000051,acoustic,USGH2,acc,before,Odin,Olympia,4,3,2022,AT/MM,,,trills,2022-03-04,09-21-08,0000051,2022-03-04 09:21:08,2
+phees_2022-03-04_09-51-13_0000052,acoustic,USGH1,acc,before,Tabor,Lola,4,3,2022,AT/MM,,,phees,2022-03-04,09-51-13,0000052,2022-03-04 09:51:13,2
+trills_2022-03-04_09-51-15_0000052,acoustic,USGH2,acc,before,Tabor,Lola,4,3,2022,AT/MM,,,trills,2022-03-04,09-51-15,0000052,2022-03-04 09:51:15,2
+trills_2022-03-07_09-19-30_0000054,acoustic,USGH2,acc,before,Wuschel,Lola,7,3,2022,AT/MM,,,trills,2022-03-07,09-19-30,0000054,2022-03-07 09:19:30,2
+phees_2022-03-07_09-19-31_0000054,acoustic,USGH1,acc,before,Wuschel,Lola,7,3,2022,AT/MM,,,phees,2022-03-07,09-19-31,0000054,2022-03-07 09:19:31,2
+phees_2022-03-08_09-46-19_0000014,acoustic,USGH1,acc,before,Tabor,Nougatti,8,3,2022,AT/MM,"some vocal exchanges, nothing too crazy",,phees,2022-03-08,09-46-19,0000014,2022-03-08 09:46:19,3
+trills_2022-03-08_09-46-20_0000014,acoustic,USGH2,acc,before,Tabor,Nougatti,8,3,2022,AT/MM,"some vocal exchanges, nothing too crazy",,trills,2022-03-08,09-46-20,0000014,2022-03-08 09:46:20,3
+phees_2022-03-09_09-37-05_0000016,acoustic,USGH1,acc,before,Wuschel,Olympia,9,3,2022,AT/MM,,,phees,2022-03-09,09-37-05,0000016,2022-03-09 09:37:05,2
+trills_2022-03-09_09-37-06_0000016,acoustic,USGH2,acc,before,Wuschel,Olympia,9,3,2022,AT/MM,,,trills,2022-03-09,09-37-06,0000016,2022-03-09 09:37:06,2
+phees_2022-03-09_13-56-44_0000018,acoustic,USGH1,acc,before,Tabor,Olympia,9,3,2022,EO/MM,mostly (only?) Tabor vocalizing,,phees,2022-03-09,13-56-44,0000018,2022-03-09 13:56:44,2
+trills_2022-03-09_13-56-45_0000018,acoustic,USGH2,acc,before,Tabor,Olympia,9,3,2022,EO/MM,mostly (only?) Tabor vocalizing,,trills,2022-03-09,13-56-45,0000018,2022-03-09 13:56:45,2
+phees_2022-03-09_14-59-42_0000020,acoustic,USGH1,acc,before,Odin,Nougatti,9,3,2022,EO/MM,"both vocalizing, some exchanges",,phees,2022-03-09,14-59-42,0000020,2022-03-09 14:59:42,2
+trills_2022-03-09_14-59-43_0000020,acoustic,USGH2,acc,before,Odin,Nougatti,9,3,2022,EO/MM,"both vocalizing, some exchanges",,trills,2022-03-09,14-59-43,0000020,2022-03-09 14:59:43,2
+phees_2022-03-10_09-28-14_0000022,acoustic,USGH1,acc,before,Tabor,Lola,10,3,2022,EO/MM,"few vocalizations, mostly Tabor; Tabor eating throughout phase 2; Avisoft switched recorders",,phees,2022-03-10,09-28-14,0000022,2022-03-10 09:28:14,3
+trills_2022-03-10_09-28-14_0000022,acoustic,USGH2,acc,before,Tabor,Lola,10,3,2022,EO/MM,"few vocalizations, mostly Tabor; Tabor eating throughout phase 2; Avisoft switched recorders",,trills,2022-03-10,09-28-14,0000022,2022-03-10 09:28:14,3
+phees_2022-03-10_10-18-58_0000024,acoustic,USGH1,acc,before,Odin,Olympia,10,3,2022,EO/MM,"some exchanges (trills), phees form both, Odin food calls",,phees,2022-03-10,10-18-58,0000024,2022-03-10 10:18:58,3
+trills_2022-03-10_10-18-58_0000024,acoustic,USGH2,acc,before,Odin,Olympia,10,3,2022,EO/MM,"some exchanges (trills), phees form both, Odin food calls",,trills,2022-03-10,10-18-58,0000024,2022-03-10 10:18:58,3
+trills_2022-03-10_10-59-36_0000025,acoustic,USGH2,acc,before,Wuschel,Nougatti,10,3,2022,EO/MM,"mostly Nougatti vocalizing in the beginning, food calls Wuschel",,trills,2022-03-10,10-59-36,0000025,2022-03-10 10:59:36,1
+phees_2022-03-10_10-59-37_0000025,acoustic,USGH1,acc,before,Wuschel,Nougatti,10,3,2022,EO/MM,"mostly Nougatti vocalizing in the beginning, food calls Wuschel",,phees,2022-03-10,10-59-37,0000025,2022-03-10 10:59:37,1
+phees_2022-03-11_09-34-34_0000027,acoustic,USGH1,acc,before,Odin,Lola,11,3,2022,RB/MM,Odin food calls ,,phees,2022-03-11,09-34-34,0000027,2022-03-11 09:34:34,3
+trills_2022-03-11_09-34-35_0000027,acoustic,USGH2,acc,before,Odin,Lola,11,3,2022,RB/MM,Odin food calls ,,trills,2022-03-11,09-34-35,0000027,2022-03-11 09:34:35,3
+trills_2022-03-11_10-24-30_0000033,acoustic,USGH2,acc,before,Tabor,Olympia,11,3,2022,RB/MM,lots of exchanges in phase 3,,trills,2022-03-11,10-24-30,0000033,2022-03-11 10:24:30,3
+phees_2022-03-11_10-24-31_0000033,acoustic,USGH1,acc,before,Tabor,Olympia,11,3,2022,RB/MM,lots of exchanges in phase 3,,phees,2022-03-11,10-24-31,0000033,2022-03-11 10:24:31,3
+phees_2022-03-11_14-57-48_0000041,acoustic,USGH1,acc,before,Wuschel,Lola,11,3,2022,RB/MM,,,phees,2022-03-11,14-57-48,0000041,2022-03-11 14:57:48,3
+trills_2022-03-11_14-57-49_0000041,acoustic,USGH2,acc,before,Wuschel,Lola,11,3,2022,RB/MM,,,trills,2022-03-11,14-57-49,0000041,2022-03-11 14:57:49,3
+phees_2022-03-14_09-26-36_0000046,acoustic,USGH1,acc,before,Wuschel,Olympia,14,3,2022,EO/MM,,,phees,2022-03-14,09-26-36,0000046,2022-03-14 09:26:36,3
+trills_2022-03-14_09-26-37_0000046,acoustic,USGH2,acc,before,Wuschel,Olympia,14,3,2022,EO/MM,,,trills,2022-03-14,09-26-37,0000046,2022-03-14 09:26:37,3
+phees_2022-03-14_10-35-12_0000049,acoustic,USGH1,acc,before,Odin,Nougatti,14,3,2022,EO/MM,lots of vocalizations from both,,phees,2022-03-14,10-35-12,0000049,2022-03-14 10:35:12,3
+trills_2022-03-14_10-35-13_0000049,acoustic,USGH2,acc,before,Odin,Nougatti,14,3,2022,EO/MM,lots of vocalizations from both,,trills,2022-03-14,10-35-13,0000049,2022-03-14 10:35:13,3
+phees_2022-03-14_13-20-47_0000053,acoustic,USGH1,acc,before,Odin,Olympia,14,3,2022,RB/MM,,,phees,2022-03-14,13-20-47,0000053,2022-03-14 13:20:47,4
+trills_2022-03-14_13-20-48_0000053,acoustic,USGH2,acc,before,Odin,Olympia,14,3,2022,RB/MM,	,,trills,2022-03-14,13-20-48,0000053,2022-03-14 13:20:48,4
+phees_2022-03-14_13-55-14_0000054,acoustic,USGH1,acc,before,Wuschel,Nougatti,14,3,2022,RB/MM,,,phees,2022-03-14,13-55-14,0000054,2022-03-14 13:55:14,2
+trills_2022-03-14_13-55-15_0000054,acoustic,USGH2,acc,before,Wuschel,Nougatti,14,3,2022,RB/MM,,,trills,2022-03-14,13-55-15,0000054,2022-03-14 13:55:15,2
+phees_2022-03-15_09-35-25_0000056,acoustic,USGH1,acc,before,Wuschel,Lola,15,3,2022,EO/MM,"Lola pretty quiet, Wuschel food calls, some exchanges towards the end",,phees,2022-03-15,09-35-25,0000056,2022-03-15 09:35:25,4
+trills_2022-03-15_09-35-25_0000056,acoustic,USGH2,acc,before,Wuschel,Lola,15,3,2022,EO/MM,"Lola pretty quiet, Wuschel food calls, some exchanges towards the end",,trills,2022-03-15,09-35-25,0000056,2022-03-15 09:35:25,4
+phees_2022-03-15_10-42-01_0000058,acoustic,USGH1,acc,before,Tabor,Nougatti,15,3,2022,EO/MM,,,phees,2022-03-15,10-42-01,0000058,2022-03-15 10:42:01,4
+trills_2022-03-15_10-42-02_0000058,acoustic,USGH2,acc,before,Tabor,Nougatti,15,3,2022,EO/MM,,,trills,2022-03-15,10-42-02,0000058,2022-03-15 10:42:02,4
+phees_2022-03-15_13-18-10_0000060,acoustic,USGH1,acc,before,Odin,Nougatti,15,3,2022,EO/MM,,,phees,2022-03-15,13-18-10,0000060,2022-03-15 13:18:10,4
+trills_2022-03-15_13-18-10_0000060,acoustic,USGH2,acc,before,Odin,Nougatti,15,3,2022,EO/MM,,,trills,2022-03-15,13-18-10,0000060,2022-03-15 13:18:10,4
+phees_2022-03-15_14-09-36_0000061,acoustic,USGH1,acc,before,Tabor,Olympia,15,3,2022,EO/MM,,,phees,2022-03-15,14-09-36,0000061,2022-03-15 14:09:36,4
+trills_2022-03-15_14-09-36_0000061,acoustic,USGH2,acc,before,Tabor,Olympia,15,3,2022,EO/MM,,,trills,2022-03-15,14-09-36,0000061,2022-03-15 14:09:36,4
+phees_2022-03-16_09-27-47_0000063,acoustic,USGH1,acc,before,Wuschel,Nougatti,16,3,2022,EO/MM,not as vocal as other times,,phees,2022-03-16,09-27-47,0000063,2022-03-16 09:27:47,3
+trills_2022-03-16_09-27-47_0000063,acoustic,USGH2,acc,before,Wuschel,Nougatti,16,3,2022,EO/MM,not as vocal as other times,,trills,2022-03-16,09-27-47,0000063,2022-03-16 09:27:47,3
+phees_2022-03-16_10-12-17_0000065,acoustic,USGH1,acc,before,Odin,Lola,16,3,2022,EO/MM,"mostly Odin , phees & food calls",,phees,2022-03-16,10-12-17,0000065,2022-03-16 10:12:17,4
+trills_2022-03-16_10-12-18_0000065,acoustic,USGH2,acc,before,Odin,Lola,16,3,2022,EO/MM,"mostly Odin , phees & food calls",,trills,2022-03-16,10-12-18,0000065,2022-03-16 10:12:18,4
+phees_2022-03-16_13-53-05_0000067,acoustic,USGH1,acc,before,Odin,Olympia,16,3,2022,EO/MM,,,phees,2022-03-16,13-53-05,0000067,2022-03-16 13:53:05,5
+trills_2022-03-16_13-53-06_0000067,acoustic,USGH2,acc,before,Odin,Olympia,16,3,2022,EO/MM,,,trills,2022-03-16,13-53-06,0000067,2022-03-16 13:53:06,5
+phees_2022-03-16_14-28-55_0000068,acoustic,USGH1,acc,before,Tabor,Lola,16,3,2022,EO/MM,,,phees,2022-03-16,14-28-55,0000068,2022-03-16 14:28:55,4
+trills_2022-03-16_14-28-55_0000068,acoustic,USGH2,acc,before,Tabor,Lola,16,3,2022,EO/MM,,,trills,2022-03-16,14-28-55,0000068,2022-03-16 14:28:55,4
+phees_2022-03-17_09-51-16_0000070,acoustic,USGH1,acc,before,Wuschel,Olympia,17,3,2022,RB/MM,Two Avisoft errors during recording,,phees,2022-03-17,09-51-16,0000070,2022-03-17 09:51:16,4
+trills_2022-03-17_09-51-17_0000070,acoustic,USGH2,acc,before,Wuschel,Olympia,17,3,2022,RB/MM,Two Avisoft errors during recording,,trills,2022-03-17,09-51-17,0000070,2022-03-17 09:51:17,4
+trills_2022-03-17_09-57-25_0000071,acoustic,USGH2,acc,before,Wuschel,Olympia,17,3,2022,RB/MM,Two Avisoft errors during recording,,trills,2022-03-17,09-57-25,0000071,2022-03-17 09:57:25,4
+trills_2022-03-17_10-04-51_0000072,acoustic,USGH2,acc,before,Wuschel,Olympia,17,3,2022,RB/MM,Two Avisoft errors during recording,,trills,2022-03-17,10-04-51,0000072,2022-03-17 10:04:51,4
+phees_2022-03-17_13-35-29_0000074,acoustic,USGH1,acc,before,Tabor,Olympia,17,3,2022,RB/MM,,,phees,2022-03-17,13-35-29,0000074,2022-03-17 13:35:29,5
+trills_2022-03-17_13-35-30_0000074,acoustic,USGH2,acc,before,Tabor,Olympia,17,3,2022,RB/MM,,,trills,2022-03-17,13-35-30,0000074,2022-03-17 13:35:30,5
+phees_2022-03-17_14-11-17_0000076,acoustic,USGH1,acc,before,Odin,Lola,17,3,2022,RB/MM,"Second ""phase change"" at the beginning is the right one",,phees,2022-03-17,14-11-17,0000076,2022-03-17 14:11:17,5
+trills_2022-03-17_14-11-20_0000076,acoustic,USGH2,acc,before,Odin,Lola,17,3,2022,RB/MM,"Second ""phase change"" at the beginning is the right one",,trills,2022-03-17,14-11-20,0000076,2022-03-17 14:11:20,5
+phees_2022-03-18_09-14-46_0000079,acoustic,USGH1,acc,before,Wuschel,Olympia,18,3,2022,RB/MM,,,phees,2022-03-18,09-14-46,0000079,2022-03-18 09:14:46,5
+trills_2022-03-18_09-14-46_0000079,acoustic,USGH2,acc,before,Wuschel,Olympia,18,3,2022,RB/MM,Avisoft error,,trills,2022-03-18,09-14-46,0000079,2022-03-18 09:14:46,5
+trills_2022-03-18_09-20-28_0000081,acoustic,USGH2,acc,before,Wuschel,Olympia,18,3,2022,RB/MM,,,trills,2022-03-18,09-20-28,0000081,2022-03-18 09:20:28,5
+phees_2022-03-18_09-47-46_0000083,acoustic,USGH1,acc,before,Tabor,Lola,18,3,2022,RB/MM,,,phees,2022-03-18,09-47-46,0000083,2022-03-18 09:47:46,5
+trills_2022-03-18_09-47-49_0000083,acoustic,USGH2,acc,before,Tabor,Lola,18,3,2022,RB/MM,,,trills,2022-03-18,09-47-49,0000083,2022-03-18 09:47:49,5
+phees_2022-03-18_10-23-09_0000086,acoustic,USGH1,acc,before,Odin,Nougatti,18,3,2022,RB/MM,,,phees,2022-03-18,10-23-09,0000086,2022-03-18 10:23:09,5
+trills_2022-03-18_10-23-10_0000086,acoustic,USGH2,acc,before,Odin,Nougatti,18,3,2022,RB/MM,,,trills,2022-03-18,10-23-10,0000086,2022-03-18 10:23:10,5
+phees_2022-03-18_14-38-20_0000088,acoustic,USGH1,acc,before,Wuschel,Lola,21,3,2022,EO/MM,,,phees,2022-03-21,14-38-20,0000088,2022-03-18 14:38:20,5
+trills_2022-03-18_14-38-21_0000088,acoustic,USGH2,acc,before,Wuschel,Lola,21,3,2022,EO/MM,Avisoft error,,trills,2022-03-21,14-38-21,0000088,2022-03-18 14:38:21,5
+trills_2022-03-18_14-43-07_0000090,acoustic,USGH2,acc,before,Wuschel,Lola,21,3,2022,EO/MM,,,trills,2022-03-21,14-43-07,0000090,2022-03-18 14:43:07,5
+phees_2022-03-21_09-27-59_0000092,acoustic,USGH1,acc,before,Tabor,Nougatti,21,3,2022,EO/MM,,,phees,2022-03-21,09-27-59,0000092,2022-03-21 09:27:59,5
+trills_2022-03-21_09-28-00_0000092,acoustic,USGH2,acc,before,Tabor,Nougatti,21,3,2022,EO/MM,,,trills,2022-03-21,09-28-00,0000092,2022-03-21 09:28:00,5
+phees_2022-03-21_10-06-36_0000094,acoustic,USGH1,acc,before,Odin,Lola,21,3,2022,EO/MM,,,phees,2022-03-21,10-06-36,0000094,2022-03-21 10:06:36,6
+trills_2022-03-21_10-06-37_0000094,acoustic,USGH2,acc,before,Odin,Lola,21,3,2022,EO/MM,,,trills,2022-03-21,10-06-37,0000094,2022-03-21 10:06:37,6
+phees_2022-03-21_13-15-58_0000096,acoustic,USGH1,acc,before,Wuschel,Nougatti,21,3,2022,AT/MM,,,phees,2022-03-21,13-15-58,0000096,2022-03-21 13:15:58,4
+trills_2022-03-21_13-15-59_0000096,acoustic,USGH2,acc,before,Wuschel,Nougatti,21,3,2022,AT/MM,,,trills,2022-03-21,13-15-59,0000096,2022-03-21 13:15:59,4
+phees_2022-03-21_13-47-05_0000098,acoustic,USGH1,acc,before,Tabor,Lola,21,3,2022,AT/MM,,,phees,2022-03-21,13-47-05,0000098,2022-03-21 13:47:05,6
+trills_2022-03-21_13-47-06_0000098,acoustic,USGH2,acc,before,Tabor,Lola,21,3,2022,AT/MM,,,trills,2022-03-21,13-47-06,0000098,2022-03-21 13:47:06,6
+phees_2022-03-22_09-27-04_0000104,acoustic,USGH1,acc,before,Odin,Nougatti,22,3,2022,AT/MM,,,phees,2022-03-22,09-27-04,0000104,2022-03-22 09:27:04,6
+trills_2022-03-22_09-27-55_0000104,acoustic,USGH2,acc,before,Odin,Nougatti,22,3,2022,AT/MM,,,trills,2022-03-22,09-27-55,0000104,2022-03-22 09:27:55,6
+phees_2022-03-22_10-06-16_0000106,acoustic,USGH1,acc,before,Tabor,Olympia,22,3,2022,AT/MM,,,phees,2022-03-22,10-06-16,0000106,2022-03-22 10:06:16,6
+trills_2022-03-22_10-06-17_0000106,acoustic,USGH2,acc,before,Tabor,Olympia,22,3,2022,AT/MM,,,trills,2022-03-22,10-06-17,0000106,2022-03-22 10:06:17,6
+phees_2022-03-22_13-32-36_0000108,acoustic,USGH1,acc,before,Wuschel,Olympia,22,3,2022,AT/MM,,,phees,2022-03-22,13-32-36,0000108,2022-03-22 13:32:36,6
+trills_2022-03-22_13-32-36_0000108,acoustic,USGH2,acc,before,Wuschel,Olympia,22,3,2022,AT/MM,,,trills,2022-03-22,13-32-36,0000108,2022-03-22 13:32:36,6
+phees_2022-03-22_14-08-31_0000109,acoustic,USGH1,acc,before,Tabor,Nougatti,22,3,2022,AT/MM,,,phees,2022-03-22,14-08-31,0000109,2022-03-22 14:08:31,6
+trills_2022-03-22_14-08-31_0000109,acoustic,USGH2,acc,before,Tabor,Nougatti,22,3,2022,AT/MM,,,trills,2022-03-22,14-08-31,0000109,2022-03-22 14:08:31,6
+phees_2022-03-23_09-42-11_0000113,acoustic,USGH1,acc,before,Wuschel,Nougatti,23,3,2022,AT/MM,,,phees,2022-03-23,09-42-11,0000113,2022-03-23 09:42:11,5
+trills_2022-03-23_09-42-19_0000113,acoustic,USGH2,acc,before,Wuschel,Nougatti,23,3,2022,AT/MM,,,trills,2022-03-23,09-42-19,0000113,2022-03-23 09:42:19,5
+phees_2022-03-23_10-25-29_0000114,acoustic,USGH1,acc,before,Odin,Olympia,23,3,2022,AT/MM,lots of exchanges,,phees,2022-03-23,10-25-29,0000114,2022-03-23 10:25:29,6
+trills_2022-03-23_10-25-30_0000114,acoustic,USGH2,acc,before,Odin,Olympia,23,3,2022,AT/MM,lots of exchanges,,trills,2022-03-23,10-25-30,0000114,2022-03-23 10:25:30,6
+phees_2022-03-23_14-06-30_0000117,acoustic,USGH1,acc,before,Wuschel,Lola,23,3,2022,AT/MM,almost no vocalizations,,phees,2022-03-23,14-06-30,0000117,2022-03-23 14:06:30,6
+trills_2022-03-23_14-06-31_0000117,acoustic,USGH2,acc,before,Wuschel,Lola,23,3,2022,AT/MM,almost no vocalizations,,trills,2022-03-23,14-06-31,0000117,2022-03-23 14:06:31,6
+phees_2022-07-07_09-33-47_0000003.wav,acoustic,USGH1,acc,after,Tabor,Nougatti,7,7,2022,09:30,KW/KM,start of experiment not marked - numpad not connected properly. Start or recording a few seconds in. Still can use for analysis (add phase change marker at the beginning),phees,2022-07-07,09-33-47,0000003.wav,2022-07-07 09:33:47,1
+trills_2022-07-07_09-33-48_0000003.wav,acoustic,USGH2,acc,after,Tabor,Nougatti,7,7,2022,09:30,KW/KM,,trills,2022-07-07,09-33-48,0000003.wav,2022-07-07 09:33:48,1
+phees_2022-07-07_10-13-25_0000004.wav,acoustic,USGH1,acc,after,Odin,Olympia,7,7,2022,10:10,KW/KM,one additional phase change (undo after),phees,2022-07-07,10-13-25,0000004.wav,2022-07-07 10:13:25,1
+trills_2022-07-07_10-13-27_0000004.wav,acoustic,USGH2,acc,after,Odin,Olympia,7,7,2022,10:10,KW/KM,,trills,2022-07-07,10-13-27,0000004.wav,2022-07-07 10:13:27,1
+phees_2022-07-07_11-00-28_0000005.wav,acoustic,USGH1,acc,after,Wuschel,Nougatti,7,7,2022,11:00,KW/KM,,phees,2022-07-07,11-00-28,0000005.wav,2022-07-07 11:00:28,1
+trills_2022-07-07_11-00-29_0000005.wav,acoustic,USGH2,acc,after,Wuschel,Nougatti,7,7,2022,11:00,KW/KM,,trills,2022-07-07,11-00-29,0000005.wav,2022-07-07 11:00:29,1
+phees_2022-07-07_13-29-35_0000007.wav,acoustic,USGH1,acc,after,Tabor,Lola,7,7,2022,13:30,KW/KM,"Avisoft crashed a few seconds in, experiment restarted (audio file ok, but video has the beginning in it). Lots of food calls, from both individuals (mostly Tabor). Sometimes at the same time - then not labelled - too hard to tell. ",phees,2022-07-07,13-29-35,0000007.wav,2022-07-07 13:29:35,1
+trills_2022-07-07_13-29-36_0000007.wav,acoustic,USGH2,acc,after,Tabor,Lola,7,7,2022,13:30,KW/KM,,trills,2022-07-07,13-29-36,0000007.wav,2022-07-07 13:29:36,1
+phees_2022-07-07_13-58-35_0000008.wav,acoustic,USGH1,acc,after,Wuschel,Olympia,7,7,2022,14:00,KW/KM,"the recording is a bit longer than the experiment - animals trilling (+ antiphonal), so we continuted recording ",phees,2022-07-07,13-58-35,0000008.wav,2022-07-07 13:58:35,1
+trills_2022-07-07_13-58-36_0000008.wav,acoustic,USGH2,acc,after,Wuschel,Olympia,7,7,2022,14:00,KW/KM,,trills,2022-07-07,13-58-36,0000008.wav,2022-07-07 13:58:36,1
+phees_2022-07-07_14-46-49_0000009.wav,acoustic,USGH1,acc,after,Odin,Lola,7,7,2022,14:30,KW/KM,,phees,2022-07-07,14-46-49,0000009.wav,2022-07-07 14:46:49,1
+trills_2022-07-07_14-46-50_0000009.wav,acoustic,USGH2,acc,after,Odin,Lola,7,7,2022,14:30,KW/KM,,trills,2022-07-07,14-46-50,0000009.wav,2022-07-07 14:46:50,1
+phees_2022-07-08_09-47-41_0000012.wav,acoustic,USGH1,acc,after,Odin,Nougatti,8,7,2022,09:45,KW/KM,,phees,2022-07-08,09-47-41,0000012.wav,2022-07-08 09:47:41,1
+trills_2022-07-08_09-47-42_0000012.wav,acoustic,USGH2,acc,after,Odin,Nougatti,8,7,2022,09:45,KW/KM,,trills,2022-07-08,09-47-42,0000012.wav,2022-07-08 09:47:42,1
+phees_2022-07-08_10-17-53_0000013.wav,acoustic,USGH1,acc,after,Wuschel,Lola,8,7,2022,10:20,KW/KM,,phees,2022-07-08,10-17-53,0000013.wav,2022-07-08 10:17:53,1
+trills_2022-07-08_10-17-54_0000013.wav,acoustic,USGH2,acc,after,Wuschel,Lola,8,7,2022,10:20,KW/KM,,trills,2022-07-08,10-17-54,0000013.wav,2022-07-08 10:17:54,1
+phees_2022-07-08_10-51-41_0000014.wav,acoustic,USGH1,acc,after,Tabor,Olympia ,8,7,2022,11:00,KW/KM,,phees,2022-07-08,10-51-41,0000014.wav,2022-07-08 10:51:41,1
+trills_2022-07-08_10-51-44_0000014.wav,acoustic,USGH2,acc,after,Tabor,Olympia ,8,7,2022,11:00,KW/KM,,trills,2022-07-08,10-51-44,0000014.wav,2022-07-08 10:51:44,1
+phees_2022-07-18_11-15-13_0000019.wav,acoustic ,USGH1,acc,after,Tabor,Lola,18,7,2022,11:20,KW/KM,,phees,2022-07-18,11-15-13,0000019.wav,2022-07-18 11:15:13,2
+trills_2022-07-18_11-15-14_0000019.wav,acoustic ,USGH2,acc,after,Tabor,Lola,18,7,2022,11:20,KW/KM,,trills,2022-07-18,11-15-14,0000019.wav,2022-07-18 11:15:14,2
+phees_2022-07-19_11-17-29_0000018.wav,acoustic ,USGH1,acc,after,Odin,Olympia ,19,7,2022,11:15,KW/KM,Odin a bit stressed; phee and trill 18 (KM),phees,2022-07-19,11-17-29,0000018.wav,2022-07-19 11:17:29,1
+trills_2022-07-19_11-17-30_0000018.wav,acoustic ,USGH2,acc,after,Odin,Olympia ,19,7,2022,11:15,KW/KM,,trills,2022-07-19,11-17-30,0000018.wav,2022-07-19 11:17:30,1
+phees_2022-07-19_14-36-48_0000021.wav,acoustic ,USGH1,acc,after,Wuschel,Lola,19,7,2022,14:30,KW/KM,,phees,2022-07-19,14-36-48,0000021.wav,2022-07-19 14:36:48,2
+trills_2022-07-19_14-36-49_0000021.wav,acoustic ,USGH2,acc,after,Wuschel,Lola,19,7,2022,14:30,KW/KM,,trills,2022-07-19,14-36-49,0000021.wav,2022-07-19 14:36:49,2
+phees_2022-07-20_15-39-44_0000028.wav,acoustic ,USGH1,acc,after,Tabor,Nougatti,20,7,2022,15:40,KW/KM,,phees,2022-07-20,15-39-44,0000028.wav,2022-07-20 15:39:44,2
+trills_2022-07-20_15-39-45_0000028.wav,acoustic ,USGH2,acc,after,Tabor,Nougatti,20,7,2022,15:40,KW/KM,,trills,2022-07-20,15-39-45,0000028.wav,2022-07-20 15:39:45,2
+phees_2022-07-21_09-36-56_0000029.wav,acoustic ,USGH1,acc,after,Odin,Lola,21,7,2022,09:35,KW/KM,,phees,2022-07-21,09-36-56,0000029.wav,2022-07-21 09:36:56,2
+trills_2022-07-21_09-36-57_0000029.wav,acoustic ,USGH2,acc,after,Odin,Lola,21,7,2022,09:35,KW/KM,,trills,2022-07-21,09-36-57,0000029.wav,2022-07-21 09:36:57,2
+phees_2022-07-21_10-08-55_0000030.wav,acoustic ,USGH1,acc,after,Odin,Nougatti,21,7,2022,10:10,KW/KM,,phees,2022-07-21,10-08-55,0000030.wav,2022-07-21 10:08:55,2
+trills_2022-07-21_10-08-56_0000030.wav,acoustic ,USGH2,acc,after,Odin,Nougatti,21,7,2022,10:10,KW/KM,,trills,2022-07-21,10-08-56,0000030.wav,2022-07-21 10:08:56,2
+trills_2022-07-21_10-47-45_0000032.wav,acoustic ,USGH2,acc,after,Wuschel,Nougatti,21,7,2022,10:45,KW/KM,,trills,2022-07-21,10-47-45,0000032.wav,2022-07-21 10:47:45,2
+phees_2022-07-21_13-24-57_0000034.wav,acoustic ,USGH1,acc,after,Wuschel,Olympia ,21,7,2022,13:25,KW/KM,,phees,2022-07-21,13-24-57,0000034.wav,2022-07-21 13:24:57,1
+trills_2022-07-21_13-24-59_0000034.wav,acoustic ,USGH2,acc,after,Wuschel,Olympia ,21,7,2022,13:25,KW/KM,,trills,2022-07-21,13-24-59,0000034.wav,2022-07-21 13:24:59,1
+phees_2022-07-21_13-48-50_0000035.wav,acoustic ,USGH1,acc,after,Tabor,Olympia ,21,7,2022,13:50,KW/KM,,phees,2022-07-21,13-48-50,0000035.wav,2022-07-21 13:48:50,2
+trills_2022-07-21_13-48-52_0000035.wav,acoustic ,USGH2,acc,after,Tabor,Olympia ,21,7,2022,13:50,KW/KM,,trills,2022-07-21,13-48-52,0000035.wav,2022-07-21 13:48:52,2
+phees_2022-07-25_13-18-56_0000037.wav,acoustic ,USGH1,acc,after,Odin,Olympia ,25,7,2022,13:20,KW/KM,,phees,2022-07-25,13-18-56,0000037.wav,2022-07-25 13:18:56,2
+trills_2022-07-25_13-18-57_0000037.wav,acoustic ,USGH2,acc,after,Odin,Olympia ,25,7,2022,13:20,KW/KM,,trills,2022-07-25,13-18-57,0000037.wav,2022-07-25 13:18:57,2
+phees_2022-07-25_13-47-10_0000038.wav,acoustic ,USGH1,acc,after,Wuschel,Lola,25,7,2022,13:45,KW/KM,,phees,2022-07-25,13-47-10,0000038.wav,2022-07-25 13:47:10,3
+trills_2022-07-25_13-47-11_0000038.wav,acoustic ,USGH2,acc,after,Wuschel,Lola,25,7,2022,13:45,KW/KM,,trills,2022-07-25,13-47-11,0000038.wav,2022-07-25 13:47:11,3
+phees_2022-07-25_14-28-46_0000039.wav,acoustic ,USGH1,acc,after,Tabor,Nougatti,25,7,2022,14:30,KW/KM,,phees,2022-07-25,14-28-46,0000039.wav,2022-07-25 14:28:46,3
+trills_2022-07-25_14-28-48_0000039.wav,acoustic ,USGH2,acc,after,Tabor,Nougatti,25,7,2022,14:30,KW/KM,,trills,2022-07-25,14-28-48,0000039.wav,2022-07-25 14:28:48,3
+trills_2022-07-25_14-43-08_0000041.wav,acoustic ,USGH2,acc,after,Tabor,Nougatti,25,7,2022,14:30,KW/KM,,trills,2022-07-25,14-43-08,0000041.wav,2022-07-25 14:43:08,3
+phees_2022-07-25_14-43-13_0000041.wav,acoustic ,USGH1,acc,after,Tabor,Nougatti,25,7,2022,14:30,KW/KM,,phees,2022-07-25,14-43-13,0000041.wav,2022-07-25 14:43:13,3
+phees_2022-07-25_14-55-51_0000042.wav,acoustic ,USGH1,acc,after,Tabor,Olympia ,25,7,2022,14:55,KW/KM,,phees,2022-07-25,14-55-51,0000042.wav,2022-07-25 14:55:51,3
+trills_2022-07-25_14-55-52_0000042.wav,acoustic ,USGH2,acc,after,Tabor,Olympia ,25,7,2022,14:55,KW/KM,,trills,2022-07-25,14-55-52,0000042.wav,2022-07-25 14:55:52,3
+trills_2022-07-25_15-07-21_0000044.wav,acoustic ,USGH2,acc,after,Tabor,Olympia ,25,7,2022,14:55,KW/KM,,trills,2022-07-25,15-07-21,0000044.wav,2022-07-25 15:07:21,3
+phees_2022-07-25_15-07-25_0000044.wav,acoustic ,USGH1,acc,after,Tabor,Olympia ,25,7,2022,14:55,KW/KM,,phees,2022-07-25,15-07-25,0000044.wav,2022-07-25 15:07:25,3
+phees_2022-07-25_15-26-45_0000046.wav,acoustic ,USGH1,acc,after,Wuschel,Nougatti,25,7,2022,15:25,KW/KM,,phees,2022-07-25,15-26-45,0000046.wav,2022-07-25 15:26:45,3
+trills_2022-07-25_15-26-47_0000046.wav,acoustic ,USGH2,acc,after,Wuschel,Nougatti,25,7,2022,15:25,KW/KM,,trills,2022-07-25,15-26-47,0000046.wav,2022-07-25 15:26:47,3
+phees_2022-07-26_13-19-22_0000049.wav,acoustic ,USGH1,acc,after,Odin,Lola,26,7,2022,13:20,KW/KM,,phees,2022-07-26,13-19-22,0000049.wav,2022-07-26 13:19:22,3
+trills_2022-07-26_13-19-23_0000049.wav,acoustic ,USGH2,acc,after,Odin,Lola,26,7,2022,13:20,KW/KM,,trills,2022-07-26,13-19-23,0000049.wav,2022-07-26 13:19:23,3
+phees_2022-07-26_13-45-12_0000050.wav,acoustic ,USGH1,acc,after,Tabor,Lola,26,7,2022,13:45,KW/KM,,phees,2022-07-26,13-45-12,0000050.wav,2022-07-26 13:45:12,3
+trills_2022-07-26_13-45-13_0000050.wav,acoustic ,USGH2,acc,after,Tabor,Lola,26,7,2022,13:45,KW/KM,,trills,2022-07-26,13-45-13,0000050.wav,2022-07-26 13:45:13,3
+phees_2022-07-26_14-33-05_0000052.wav,acoustic ,USGH1,acc,after,Wuschel,Olympia ,26,7,2022,14:30,KW/KM,,phees,2022-07-26,14-33-05,0000052.wav,2022-07-26 14:33:05,2
+trills_2022-07-26_14-33-06_0000052.wav,acoustic ,USGH2,acc,after,Wuschel,Olympia ,26,7,2022,14:30,KW/KM,,trills,2022-07-26,14-33-06,0000052.wav,2022-07-26 14:33:06,2
+phees_2022-07-26_15-00-38_0000053.wav,acoustic ,USGH1,acc,after,Wuschel,Nougatti,26,7,2022,15:00,KW/KM,,phees,2022-07-26,15-00-38,0000053.wav,2022-07-26 15:00:38,4
+trills_2022-07-26_15-00-39_0000053.wav,acoustic ,USGH2,acc,after,Wuschel,Nougatti,26,7,2022,15:00,KW/KM,,trills,2022-07-26,15-00-39,0000053.wav,2022-07-26 15:00:39,4
+phees_2022-07-26_15-22-33_0000054.wav,acoustic ,USGH1,acc,after,Odin,Nougatti,26,7,2022,15:20,KW/KM,,phees,2022-07-26,15-22-33,0000054.wav,2022-07-26 15:22:33,3
+trills_2022-07-26_15-22-35_0000054.wav,acoustic ,USGH2,acc,after,Odin,Nougatti,26,7,2022,15:20,KW/KM,,trills,2022-07-26,15-22-35,0000054.wav,2022-07-26 15:22:35,3
+phees_2022-07-27_10-24-06_0000055.wav,acoustic ,USGH1,acc,after,Tabor,Nougatti,27,7,2022,10:25,KW/KM,,phees,2022-07-27,10-24-06,0000055.wav,2022-07-27 10:24:06,4
+trills_2022-07-27_10-24-07_0000055.wav,acoustic ,USGH2,acc,after,Tabor,Nougatti,27,7,2022,10:25,KW/KM,,trills,2022-07-27,10-24-07,0000055.wav,2022-07-27 10:24:07,4
+phees_2022-07-27_10-54-21_0000056.wav,acoustic ,USGH1,acc,after,Odin,Nougatti,27,7,2022,10:55,KW/KM,,phees,2022-07-27,10-54-21,0000056.wav,2022-07-27 10:54:21,4
+trills_2022-07-27_10-54-22_0000056.wav,acoustic ,USGH2,acc,after,Odin,Nougatti,27,7,2022,10:55,KW/KM,,trills,2022-07-27,10-54-22,0000056.wav,2022-07-27 10:54:22,4
+phees_2022-07-27_11-30-41_0000057.wav,acoustic ,USGH1,acc,after,Wuschel,Lola,27,7,2022,11:30,KW/KM,,phees,2022-07-27,11-30-41,0000057.wav,2022-07-27 11:30:41,4
+trills_2022-07-27_11-30-42_0000057.wav,acoustic ,USGH2,acc,after,Wuschel,Lola,27,7,2022,11:30,KW/KM,,trills,2022-07-27,11-30-42,0000057.wav,2022-07-27 11:30:42,4
+phees_2022-07-28_09-36-49_0000058.wav,acoustic ,USGH1,acc,after,Tabor,Olympia ,28,7,2022,09:35,KW/KM,,phees,2022-07-28,09-36-49,0000058.wav,2022-07-28 09:36:49,4
+trills_2022-07-28_09-36-50_0000058.wav,acoustic ,USGH2,acc,after,Tabor,Olympia ,28,7,2022,09:35,KW/KM,,trills,2022-07-28,09-36-50,0000058.wav,2022-07-28 09:36:50,4
+phees_2022-07-28_10-12-30_0000059.wav,acoustic ,USGH1,acc,after,Wuschel,Olympia ,28,7,2022,10:10,KW/KM,,phees,2022-07-28,10-12-30,0000059.wav,2022-07-28 10:12:30,3
+trills_2022-07-28_10-12-31_0000059.wav,acoustic ,USGH2,acc,after,Wuschel,Olympia ,28,7,2022,10:10,KW/KM,,trills,2022-07-28,10-12-31,0000059.wav,2022-07-28 10:12:31,3
+phees_2022-07-28_10-46-38_0000060.wav,acoustic ,USGH1,acc,after,Odin,Lola,28,7,2022,10:45,KW/KM,,phees,2022-07-28,10-46-38,0000060.wav,2022-07-28 10:46:38,4
+trills_2022-07-28_10-46-40_0000060.wav,acoustic ,USGH2,acc,after,Odin,Lola,28,7,2022,10:45,KW/KM,,trills,2022-07-28,10-46-40,0000060.wav,2022-07-28 10:46:40,4
+phees_2022-07-28_11-14-07_0000061.wav,acoustic ,USGH1,acc,after,Tabor,Lola,28,7,2022,11:15,KW/KM,,phees,2022-07-28,11-14-07,0000061.wav,2022-07-28 11:14:07,4
+trills_2022-07-28_11-14-09_0000061.wav,acoustic ,USGH2,acc,after,Tabor,Lola,28,7,2022,11:15,KW/KM,,trills,2022-07-28,11-14-09,0000061.wav,2022-07-28 11:14:09,4
+phees_2022-08-02_13-43-08_0000064.wav,acoustic ,USGH1,acc,after,Odin,Olympia ,2,8,2022,13:45,KW/KM,,phees,2022-08-02,13-43-08,0000064.wav,2022-08-02 13:43:08,3
+trills_2022-08-02_13-43-10_0000064.wav,acoustic ,USGH2,acc,after,Odin,Olympia ,2,8,2022,13:45,KW/KM,,trills,2022-08-02,13-43-10,0000064.wav,2022-08-02 13:43:10,3
+phees_2022-08-02_14-11-30_0000065.wav,acoustic ,USGH1,acc,after,Wuschel,Olympia ,2,8,2022,14:10,KW/KM,,phees,2022-08-02,14-11-30,0000065.wav,2022-08-02 14:11:30,4
+trills_2022-08-02_14-11-31_0000065.wav,acoustic ,USGH2,acc,after,Wuschel,Olympia ,2,8,2022,14:10,KW/KM,,trills,2022-08-02,14-11-31,0000065.wav,2022-08-02 14:11:31,4
+phees_2022-08-02_14-36-43_0000066.wav,acoustic ,USGH1,acc,after,Wuschel,Lola,2,8,2022,14:35,KW/KM,,phees,2022-08-02,14-36-43,0000066.wav,2022-08-02 14:36:43,5
+trills_2022-08-02_14-36-44_0000066.wav,acoustic ,USGH2,acc,after,Wuschel,Lola,2,8,2022,14:35,KW/KM,,trills,2022-08-02,14-36-44,0000066.wav,2022-08-02 14:36:44,5
+phees_2022-08-02_15-01-37_0000067.wav,acoustic ,USGH1,acc,after,Tabor,Lola,2,8,2022,15:00,KW/KM,,phees,2022-08-02,15-01-37,0000067.wav,2022-08-02 15:01:37,5
+trills_2022-08-02_15-01-39_0000067.wav,acoustic ,USGH2,acc,after,Tabor,Lola,2,8,2022,15:00,KW/KM,,trills,2022-08-02,15-01-39,0000067.wav,2022-08-02 15:01:39,5
+phees_2022-08-03_14-32-28_0000070.wav,acoustic ,USGH1,acc,after,Tabor,Olympia ,3,8,2022,14:30,KW/KM,,phees,2022-08-03,14-32-28,0000070.wav,2022-08-03 14:32:28,5
+trills_2022-08-03_14-32-30_0000070.wav,acoustic ,USGH2,acc,after,Tabor,Olympia ,3,8,2022,14:30,KW/KM,,trills,2022-08-03,14-32-30,0000070.wav,2022-08-03 14:32:30,5
+phees_2022-08-03_14-57-10_0000071.wav,acoustic ,USGH1,acc,after,Odin,Olympia ,3,8,2022,14:55,KW/KM,,phees,2022-08-03,14-57-10,0000071.wav,2022-08-03 14:57:10,4
+trills_2022-08-03_14-57-11_0000071.wav,acoustic ,USGH2,acc,after,Odin,Olympia ,3,8,2022,14:55,KW/KM,,trills,2022-08-03,14-57-11,0000071.wav,2022-08-03 14:57:11,4
+phees_2022-08-03_15-37-29_0000072.wav,acoustic ,USGH1,acc,after,Wuschel,Nougatti,3,8,2022,15:35,KW/KM,,phees,2022-08-03,15-37-29,0000072.wav,2022-08-03 15:37:29,5
+trills_2022-08-03_15-37-31_0000072.wav,acoustic ,USGH2,acc,after,Wuschel,Nougatti,3,8,2022,15:35,KW/KM,,trills,2022-08-03,15-37-31,0000072.wav,2022-08-03 15:37:31,5
+phees_2022-08-04_09-19-19_0000073.wav,acoustic ,USGH1,acc,after,Tabor,Nougatti,4,8,2022,09:20,KW/KM,,phees,2022-08-04,09-19-19,0000073.wav,2022-08-04 09:19:19,5
+trills_2022-08-04_09-19-20_0000073.wav,acoustic ,USGH2,acc,after,Tabor,Nougatti,4,8,2022,09:20,KW/KM,,trills,2022-08-04,09-19-20,0000073.wav,2022-08-04 09:19:20,5
+phees_2022-08-04_09-45-00_0000074.wav,acoustic ,USGH1,acc,after,Odin,Nougatti,4,8,2022,09:45,KW/KM,,phees,2022-08-04,09-45-00,0000074.wav,2022-08-04 09:45:00,5
+trills_2022-08-04_09-45-02_0000074.wav,acoustic ,USGH2,acc,after,Odin,Nougatti,4,8,2022,09:45,KW/KM,,trills,2022-08-04,09-45-02,0000074.wav,2022-08-04 09:45:02,5
+phees_2022-08-04_10-08-00_0000075.wav,acoustic ,USGH1,acc,after,Odin,Lola,4,8,2022,10:10,KW/KM,,phees,2022-08-04,10-08-00,0000075.wav,2022-08-04 10:08:00,5
+trills_2022-08-04_10-08-02_0000075.wav,acoustic ,USGH2,acc,after,Odin,Lola,4,8,2022,10:10,KW/KM,,trills,2022-08-04,10-08-02,0000075.wav,2022-08-04 10:08:02,5
+phees_2022-08-04_10-49-31_0000076.wav,acoustic ,USGH1,acc,after,Tabor,Lola,4,8,2022,10:50,KW/KM,,phees,2022-08-04,10-49-31,0000076.wav,2022-08-04 10:49:31,6
+trills_2022-08-04_10-49-33_0000076.wav,acoustic ,USGH2,acc,after,Tabor,Lola,4,8,2022,10:50,KW/KM,,trills,2022-08-04,10-49-33,0000076.wav,2022-08-04 10:49:33,6
+phees_2022-08-08_10-34-29_0000077.wav,acoustic ,USGH1,acc,after,Wuschel,Olympia ,8,8,2022,10:35,KW/KM,,phees,2022-08-08,10-34-29,0000077.wav,2022-08-08 10:34:29,5
+trills_2022-08-08_10-34-30_0000077.wav,acoustic ,USGH2,acc,after,Wuschel,Olympia ,8,8,2022,10:35,KW/KM,,trills,2022-08-08,10-34-30,0000077.wav,2022-08-08 10:34:30,5
+phees_2022-08-08_11-01-43_0000078.wav,acoustic ,USGH1,acc,after,Wuschel,Lola,8,8,2022,11:00,KW/KM,,phees,2022-08-08,11-01-43,0000078.wav,2022-08-08 11:01:43,6
+trills_2022-08-08_11-01-44_0000078.wav,acoustic ,USGH2,acc,after,Wuschel,Lola,8,8,2022,11:00,KW/KM,,trills,2022-08-08,11-01-44,0000078.wav,2022-08-08 11:01:44,6
+phees_2022-08-08_11-24-26_0000079.wav,acoustic ,USGH1,acc,after,Odin,Lola,8,8,2022,11:25,KW/KM,,phees,2022-08-08,11-24-26,0000079.wav,2022-08-08 11:24:26,6
+trills_2022-08-08_11-24-28_0000079.wav,acoustic ,USGH2,acc,after,Odin,Lola,8,8,2022,11:25,KW/KM,,trills,2022-08-08,11-24-28,0000079.wav,2022-08-08 11:24:28,6
+phees_2022-08-08_13-21-22_0000080.wav,acoustic ,USGH1,acc,after,Tabor,Nougatti,8,8,2022,13:20,KW/KM,,phees,2022-08-08,13-21-22,0000080.wav,2022-08-08 13:21:22,6
+trills_2022-08-08_13-21-24_0000080.wav,acoustic ,USGH2,acc,after,Tabor,Nougatti,8,8,2022,13:20,KW/KM,,trills,2022-08-08,13-21-24,0000080.wav,2022-08-08 13:21:24,6
+phees_2022-08-08_13-47-33_0000081.wav,acoustic ,USGH1,acc,after,Tabor,Olympia ,8,8,2022,13:45,KW/KM,,phees,2022-08-08,13-47-33,0000081.wav,2022-08-08 13:47:33,6
+trills_2022-08-08_13-47-34_0000081.wav,acoustic ,USGH2,acc,after,Tabor,Olympia ,8,8,2022,13:45,KW/KM,,trills,2022-08-08,13-47-34,0000081.wav,2022-08-08 13:47:34,6
+phees_2022-08-08_14-12-29_0000082.wav,acoustic ,USGH1,acc,after,Odin,Olympia ,8,8,2022,14:15,KW/KM,,phees,2022-08-08,14-12-29,0000082.wav,2022-08-08 14:12:29,5
+trills_2022-08-08_14-12-30_0000082.wav,acoustic ,USGH2,acc,after,Odin,Olympia ,8,8,2022,14:15,KW/KM,,trills,2022-08-08,14-12-30,0000082.wav,2022-08-08 14:12:30,5
+phees_2022-08-08_14-38-44_0000083.wav,acoustic ,USGH1,acc,after,Odin,Nougatti,8,8,2022,14:40,KW/KM,,phees,2022-08-08,14-38-44,0000083.wav,2022-08-08 14:38:44,6
+trills_2022-08-08_14-38-46_0000083.wav,acoustic ,USGH2,acc,after,Odin,Nougatti,8,8,2022,14:40,KW/KM,,trills,2022-08-08,14-38-46,0000083.wav,2022-08-08 14:38:46,6
+phees_2022-08-08_15-04-09_0000084.wav,acoustic ,USGH1,acc,after,Wuschel,Nougatti,8,8,2022,15:05,KW/KM,,phees,2022-08-08,15-04-09,0000084.wav,2022-08-08 15:04:09,6
+trills_2022-08-08_15-04-10_0000084.wav,acoustic ,USGH2,acc,after,Wuschel,Nougatti,8,8,2022,15:05,KW/KM,,trills,2022-08-08,15-04-10,0000084.wav,2022-08-08 15:04:10,6
+Acc.session2.Odin.Lola.AudioCAM.08.03.22.part1,acoustic,AudioCam,acc,before,Odin,Lola,8,3,2022,AT/MM,Audio files lost due to Avisoft error,,Acc.session2.Odin.Lola.AudioCAM.08.03.22.part1,2022-03-08,,,,2
+Acc.session2.Odin.Lola.AudioCAM.08.03.22.part2,acoustic,AudioCam,acc,before,Odin,Lola,8,3,2022,AT/MM,Audio files lost due to Avisoft error,,Acc.session2.Odin.Lola.AudioCAM.08.03.22.part2,2022-03-08,,,,2
