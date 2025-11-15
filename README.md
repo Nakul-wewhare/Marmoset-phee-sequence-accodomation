@@ -1,7 +1,5 @@
 # Marmoset-phee-sequence-accodomation
-Here’s a draft README.md you can drop straight into the repo and tweak as needed:
 
-⸻
 
 Vocal accommodation in marmoset phee call sequence structure
 
@@ -14,84 +12,11 @@ The project tests whether common marmoset pairs converge in phee call sequence s
 
 The code here reproduces the main data processing, distance metrics, and linear mixed-effects models reported in the paper.
 
-⸻
-
-Repository structure
-
-You can organise (or check) the repo roughly like this:
-
-.
-├── README.md
-├── manuscript/
-│   └── marmoset_syntax_manuscript_V3.pdf
-├── notebooks/
-│   ├── script_1_data_preprocess.ipynb
-│   ├── script_2_spectral_measurements.ipynb
-│   ├── script_3_seq_measurements.ipynb
-│   └── script_4_GLM_preprocessing.ipynb
-├── R/
-│   ├── script_5_R_LMM_model.R
-│   ├── dfbeta.R
-│   ├── diagnostic_fcns2.r
-│   └── glmm_stability.r
-├── data/
-│   ├── raw/              # (not in repo) original wav files, Raven selections, etc.
-│   ├── processed/        # cleaned call / sequence tables, MFCCs, distance matrices
-│   └── glm_input/        # per-metric distance tables used by the LMMs
-└── figures/              # optional: exported plots / figure panels
-
-If your layout differs a bit that’s fine – the scripts don’t hard-require this exact structure as long as file paths are adjusted accordingly.
-
-⸻
-
-Dependencies
-
-Python
-
-The notebooks were run with Python 3.x. You’ll need the usual scientific stack; something like:
-	•	numpy
-	•	pandas
-	•	scipy
-	•	scikit-learn
-	•	matplotlib
-	•	tqdm
-	•	jupyter / jupyterlab
-
-Optionally (depending on your edits):
-	•	numba
-	•	statsmodels
-
-A simple conda env (example):
-
-conda create -n marmoset-syntax python=3.10
-conda activate marmoset-syntax
-conda install numpy pandas scipy scikit-learn matplotlib jupyterlab
-pip install tqdm
-
-R
-
-Analyses were run in R 4.2.2. Required packages (see script_5_R_LMM_model.R for the exact list):
-	•	lme4
-	•	lmerTest
-	•	emmeans
-	•	multcomp
-	•	DHARMa
-	•	tidyverse (or at least dplyr, ggplot2)
-	•	data.table (optional but convenient)
-
-Install from within R:
-
-install.packages(c(
-  "lme4", "lmerTest", "emmeans", "multcomp",
-  "DHARMa", "tidyverse", "data.table"
-))
-
-The files dfbeta.R, diagnostic_fcns2.r, and glmm_stability.r are helper functions for model diagnostics (originally from Roger Mundry); these are sourced inside the main R script.
 
 ⸻
 
 Data
-	•	Raw audio (.wav) files are not included in this repository (file sizes + animal welfare regulations).
+	•	Raw audio (.wav) files are not included in this repository
 	•	The analysis starts from:
 	•	call/sequence tables exported from Avisoft-SASLab Pro,
 	•	spectral parameter tables exported from Raven Pro, and
@@ -126,7 +51,7 @@ Main tasks:
 	•	drop sessions with <5 units per individual (for a given metric).
 	•	Construct per-session / per-individual repertoire tables used by later scripts.
 
-Outputs (typical):
+Outputs :
 	•	data/processed/phee_calls_clean.csv
 	•	data/processed/phee_sequences_clean.csv
 
@@ -192,10 +117,6 @@ Main tasks:
 	•	z-score within metric (earlier report version).
 	•	Compute distance change between stages for each combination (after − before).
 
-Outputs (examples):
-	•	data/glm_input/sequence_distance_stage_scaled.csv
-	•	data/glm_input/spectral_distance_stage_scaled.csv
-	•	data/glm_input/distance_change_by_metric.csv
 
 These files are what the R script mainly consumes.
 
@@ -232,50 +153,4 @@ Key points:
 	•	The script produces the coefficients for Figure 3 (effect of stage on repertoire distance, with 95% CIs) and any other summary plots.
 	•	Code comments in the script indicate which chunks correspond to which figure panels.
 
-⸻
 
-How to reproduce the main results
-
-Very short version:
-	1.	Clone the repo
-
-git clone https://github.com/<your-username>/Marmoset-phee-sequence-accommodation.git
-cd Marmoset-phee-sequence-accommodation
-
-
-	2.	Set up Python environment and install dependencies.
-	3.	Run notebooks in order:
-	1.	notebooks/script_1_data_preprocess.ipynb
-	2.	notebooks/script_2_spectral_measurements.ipynb
-	3.	notebooks/script_3_seq_measurements.ipynb
-	4.	notebooks/script_4_GLM_preprocessing.ipynb
-Make sure the input paths at the top of each notebook point to your local data/ folder.
-	4.	Run the R analysis
-Open R/script_5_R_LMM_model.R in R / RStudio and source it, or run sections interactively. This will:
-	•	fit the LMMs for call and sequence structure,
-	•	print summaries & likelihood-ratio tests,
-	•	generate the model-based plots.
-
-If something fails, it is most likely a path issue (here() vs relative paths) or a package version difference. Feel free to adapt path definitions at the top of each script.
-
-⸻
-
-Citation
-
-If you use this code or pipeline in your own work, please cite the manuscript:
-
-Wewhare, N., Burkart, J. M., Wierucka, K. (2025).
-Vocal accommodation in marmoset phee call sequence structure post pairing.
-[journal / preprint details to be added]
-
-You’re also welcome to adapt the sequence-metric code (transition matrices, n-grams, local alignment) for other species; if you do, a brief acknowledgement or citation is appreciated.
-
-⸻
-
-Contact
-
-If you have questions, spot bugs, or want to reuse parts of the code in a slightly different context:
-	•	Maintainer: Nakul Wewhare
-	•	Issues and pull requests via the GitHub repo are very welcome.
-
-I’ve tried to keep the scripts readable and the pipeline transparent; if any step is unclear, open an issue and I’ll add more comments or a small example.
