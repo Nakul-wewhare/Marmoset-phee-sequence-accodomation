@@ -1,0 +1,9 @@
+dataset_tag,model,N,pairing,modality,beta_median,beta_mean,beta_lo95,beta_hi95,Pr_beta_lt0,p_two_sided
+"Non-partner
+Sequence structure",pooled_seq_nonpartner,500,Non-partner,Sequence structure,-0.9827799120092529,-0.9838928699527839,-1.374783564185941,-0.6035789313935771,1,0
+"Partner
+Sequence structure",pooled_seq_partner,248,Partner,Sequence structure,0.23451304924546812,0.23174024800165774,-0.5454586906403429,0.9856001068565412,0.26325,0.5265
+"Non-partner
+Call structure",pooled_spec_nonpartner,429,Non-partner,Call structure,0.05856145790920772,0.05586628231737983,-0.43308307140877184,0.5242367880621497,0.404375,0.80875
+"Partner
+Call structure",pooled_spec_partner,228,Partner,Call structure,0.27550362542608486,0.27206558201173464,-0.592769890643995,1.0951163766594036,0.25975,0.5195

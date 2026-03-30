@@ -1,0 +1,17 @@
+# Python packages used by the notebooks in code/
+jupyter
+notebook
+ipykernel
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+librosa
+soundfile
+pydub
+fastdtw
+tqdm
+joblib
+umap-learn
+networkx
