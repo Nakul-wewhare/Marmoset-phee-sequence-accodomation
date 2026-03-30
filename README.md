@@ -37,7 +37,6 @@ The repository now starts from the processed sequence table, processed spectral 
 - Data, audio, figures, and derived analysis outputs are released under CC BY 4.0.
 - The licence split is described in `LICENSE`, with full text or pointers in `LICENSE-CODE` and `LICENSE-DATA`.
 - Copy-ready manuscript and submission text is provided in `docs/MANUSCRIPT_TEXT.md`.
-- Submission preparation notes are provided in `docs/PROCEEDINGS_B_DATA_CODE_SHARING.md` and `docs/SUBMISSION_CHECKLIST.md`.
 
 ## Directory guide
 
