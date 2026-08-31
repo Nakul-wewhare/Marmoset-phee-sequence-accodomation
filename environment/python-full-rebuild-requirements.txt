@@ -1,0 +1,9 @@
+# Optional dependencies for explicitly requested acoustic/embedding rebuilds.
+# Install environment/python-requirements.txt first. None is imported by the
+# default cached validator.
+librosa==0.11.0
+soundfile==0.13.1
+scikit-learn==1.7.2
+pacmap==0.8.0
+umap-learn==0.5.9.post2
+chatter-pkg==0.1.6

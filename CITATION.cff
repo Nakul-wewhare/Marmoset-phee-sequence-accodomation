@@ -1,12 +1,12 @@
 cff-version: 1.2.0
 title: "Sequence-level vocal convergence in common marmosets: reproducible repository"
-message: "If you use this repository, please cite the repository URL or archived DOI when available, and cite the associated manuscript."
+message: "Please cite the archived release DOI once available and the associated manuscript."
 type: software
-version: "manuscript-ready-2026-03-30"
-date-released: 2026-03-30
+version: "0.2.0"
+date-released: 2026-08-30
 repository-code: "https://github.com/Nakul-wewhare/Marmoset-phee-sequence-accodomation"
 url: "https://github.com/Nakul-wewhare/Marmoset-phee-sequence-accodomation"
-abstract: "Reproducible repository for the manuscript 'Sequence-level vocal convergence in common marmosets', including extracted calls, processed data tables, model-ready analysis tables, and final manuscript summary outputs."
+abstract: "Code, canonical processed data, cache contracts, and manuscript figure reference snapshots for the sequence- and call-structure analyses. A complete archival release must also provide the versioned large caches identified by the repository manifest."
 keywords:
   - bioacoustics
   - common marmoset

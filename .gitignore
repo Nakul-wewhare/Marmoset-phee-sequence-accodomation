@@ -3,12 +3,21 @@
 .RData
 .RDataTmp
 .Rapp.history
+.Rproj.user/
+.venv/
+.vscode/
 .ipynb_checkpoints/
 __pycache__/
-*.pyc
+*.py[cod]
 .pytest_cache/
-.Rproj.user/
-.vscode/
-distance_matrices/
-glm data/brms_manuscript_outputs-newsession/diagnostics/
-glm data/brms_manuscript_outputs-newsession/models/
+*.egg-info/
+build/
+dist/
+
+# Execution products use distinct names and are not reference snapshots.
+notebooks/executed/
+results/figures/**/figure_*_regenerated.png
+results/figures/**/figure_*_regenerated.svg
+
+# Full brms fit objects are rebuild products, not portable release draws.
+data/cache/posterior_draws/*_interaction_brmsfit.rds

@@ -2,15 +2,18 @@ cran_packages <- c(
   "bayesplot",
   "broom.mixed",
   "brms",
+  "digest",
   "emmeans",
   "lme4",
   "lmerTest",
   "loo",
+  "jsonlite",
   "patchwork",
   "posterior",
   "rstan",
   "rstudioapi",
   "stringr",
+  "testthat",
   "tidybayes",
   "tidyverse"
 )

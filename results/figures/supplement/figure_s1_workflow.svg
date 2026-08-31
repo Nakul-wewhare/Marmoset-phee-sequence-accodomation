@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1390" viewBox="0 0 1600 1390" role="img" aria-labelledby="title desc">
+  <title id="title">Analytical pipeline</title>
+  <desc id="desc">A six-step vertical overview of data collection, preprocessing, structural metrics, repertoire comparisons, Bayesian modeling, and inference.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0 0 L7 3.5 L0 7 Z" fill="#2c728e"/>
+    </marker>
+    <style>
+      .title { font-family: Arial, Helvetica, sans-serif; font-size: 48px; font-weight: 700; fill: #172b3a; }
+      .header { font-family: Arial, Helvetica, sans-serif; font-size: 30px; font-weight: 700; fill: #172b3a; }
+      .body { font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 400; fill: #263640; }
+      .bodyBold { font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: 700; fill: #263640; }
+      .formula { font-family: 'Courier New', monospace; font-size: 22px; font-weight: 600; fill: #263640; }
+      .arrowLabel { font-family: Arial, Helvetica, sans-serif; font-size: 19px; font-weight: 700; fill: #2c728e; }
+      .num { font-family: Arial, Helvetica, sans-serif; font-size: 22px; font-weight: 700; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1390" fill="#ffffff"/>
+  <text x="70" y="58" class="title">Analytical pipeline</text>
+  <line x1="70" y1="84" x2="1530" y2="84" stroke="#aeb7be" stroke-width="1.5"/>
+
+  <!-- Flow arrows -->
+  <path d="M800 305 V334" fill="none" stroke="#2c728e" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="825" y="329" class="arrowLabel">recordings</text>
+  <path d="M800 485 V514" fill="none" stroke="#2c728e" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="825" y="509" class="arrowLabel">session repertoires</text>
+  <path d="M800 695 V724" fill="none" stroke="#2c728e" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="825" y="719" class="arrowLabel">structural representations</text>
+  <path d="M800 895 V924" fill="none" stroke="#2c728e" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="825" y="919" class="arrowLabel">repertoire distances</text>
+  <path d="M800 1105 V1134" fill="none" stroke="#2c728e" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="825" y="1129" class="arrowLabel">posterior contrasts</text>
+
+  <!-- Step 1 -->
+  <rect x="70" y="110" width="1460" height="195" fill="#ffffff" stroke="#8d989f" stroke-width="1.5"/>
+  <circle cx="105" cy="147" r="23" fill="#2c728e"/>
+  <text x="105" y="155" text-anchor="middle" class="num">1</text>
+  <text x="150" y="157" class="header">Data collection</text>
+  <line x1="100" y1="177" x2="1500" y2="177" stroke="#d2d8dc"/>
+  <text x="105" y="207" class="body"><tspan class="bodyBold">•</tspan><tspan dx="14">Six adult common marmosets (3 males and 3 females)</tspan></text>
+  <text x="105" y="235" class="body"><tspan class="bodyBold">•</tspan><tspan dx="14">All nine male–female combinations recorded</tspan></text>
+  <text x="105" y="263" class="body"><tspan class="bodyBold">•</tspan><tspan dx="14">Six recording sessions per combination at each experimental stage</tspan></text>
+  <text x="105" y="291" class="body"><tspan class="bodyBold">•</tspan><tspan dx="14">Before pairing → four months co-housing in three assigned dyads → after pairing</tspan></text>
+
+  <!-- Step 2 -->
+  <rect x="70" y="340" width="1460" height="145" fill="#ffffff" stroke="#8d989f" stroke-width="1.5"/>
+  <circle cx="105" cy="377" r="23" fill="#2c728e"/>
+  <text x="105" y="385" text-anchor="middle" class="num">2</text>
+  <text x="150" y="387" class="header">Preprocessing</text>
+  <line x1="100" y1="407" x2="1500" y2="407" stroke="#d2d8dc"/>
+  <text x="105" y="439" class="bodyBold">Retain high-quality vocalizations with certain caller identity</text>
+  <text x="105" y="469" class="body">Assemble per-session repertoires for acoustic structure and sequence structure</text>
+
+  <!-- Step 3 -->
+  <rect x="70" y="520" width="1460" height="175" fill="#ffffff" stroke="#8d989f" stroke-width="1.5"/>
+  <circle cx="105" cy="557" r="23" fill="#2c728e"/>
+  <text x="105" y="565" text-anchor="middle" class="num">3</text>
+  <text x="150" y="567" class="header">Quantify repertoire structure</text>
+  <line x1="100" y1="587" x2="1500" y2="587" stroke="#d2d8dc"/>
+  <line x1="800" y1="603" x2="800" y2="677" stroke="#d2d8dc"/>
+  <text x="105" y="621" class="bodyBold">Acoustic structure</text>
+  <text x="105" y="654" class="body">Spectro-temporal parameters (STP) · MFCCs</text>
+  <text x="105" y="683" class="body">Spectrogram DTW · VAE</text>
+  <text x="835" y="621" class="bodyBold">Sequence structure</text>
+  <text x="835" y="654" class="body">Transition-probability matrices · bigram distributions</text>
+  <text x="835" y="683" class="body">Phee-repeat distributions · Smith–Waterman alignment</text>
+
+  <!-- Step 4 -->
+  <rect x="70" y="730" width="1460" height="165" fill="#ffffff" stroke="#8d989f" stroke-width="1.5"/>
+  <circle cx="105" cy="767" r="23" fill="#2c728e"/>
+  <text x="105" y="775" text-anchor="middle" class="num">4</text>
+  <text x="150" y="777" class="header">Compare session repertoires</text>
+  <line x1="100" y1="797" x2="1500" y2="797" stroke="#d2d8dc"/>
+  <text x="105" y="829" class="bodyBold">Before vs after pairing</text>
+  <text x="105" y="859" class="bodyBold">Partner vs Non-partner</text>
+  <text x="105" y="887" class="body">Smaller repertoire distance = greater structural similarity</text>
+
+  <!-- Step 5 -->
+  <rect x="70" y="930" width="1460" height="175" fill="#ffffff" stroke="#8d989f" stroke-width="1.5"/>
+  <circle cx="105" cy="967" r="23" fill="#2c728e"/>
+  <text x="105" y="975" text-anchor="middle" class="num">5</text>
+  <text x="150" y="977" class="header">Model repertoire distances</text>
+  <line x1="100" y1="997" x2="1500" y2="997" stroke="#d2d8dc"/>
+  <text x="105" y="1031" class="bodyBold">Separate Bayesian models for acoustic structure and sequence structure</text>
+  <text x="105" y="1064" class="formula">z_distance ~ stage × context × metric</text>
+  <text x="105" y="1093" class="formula">+ (1 + stage × context || dyad) + (1 | mm(session_1, session_2))</text>
+
+  <!-- Step 6 -->
+  <rect x="70" y="1140" width="1460" height="205" fill="#ffffff" stroke="#8d989f" stroke-width="1.5"/>
+  <circle cx="105" cy="1177" r="23" fill="#2c728e"/>
+  <text x="105" y="1185" text-anchor="middle" class="num">6</text>
+  <text x="150" y="1187" class="header">Infer convergence</text>
+  <line x1="100" y1="1207" x2="1500" y2="1207" stroke="#d2d8dc"/>
+  <text x="105" y="1241" class="bodyBold">Within each context, Δ = expected standardized distance after pairing − before pairing</text>
+  <text x="105" y="1274" class="body">Δ &lt; 0 = reduced distance after pairing = convergence</text>
+  <text x="105" y="1305" class="body">Δ &gt; 0 = increased distance after pairing = divergence</text>
+  <text x="105" y="1336" class="body">Interpret direction using the posterior distribution and its 95% credible interval</text>
+</svg>
