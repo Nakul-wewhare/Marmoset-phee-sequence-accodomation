@@ -1,14 +1,7 @@
 .DS_Store
-.Rhistory
 .RData
-.RDataTmp
-.Rapp.history
-.ipynb_checkpoints/
+.Rhistory
+.venv/
 __pycache__/
+.ipynb_checkpoints/
 *.pyc
-.pytest_cache/
-.Rproj.user/
-.vscode/
-distance_matrices/
-glm data/brms_manuscript_outputs-newsession/diagnostics/
-glm data/brms_manuscript_outputs-newsession/models/

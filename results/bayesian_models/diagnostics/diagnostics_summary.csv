@@ -1,0 +1,3 @@
+model,max_rhat,min_ess_bulk,min_ess_tail,divergences,max_treedepth_hits,diagnostic_pass
+sequence_model,1.004168384142738,1904.8113253967622,2750.9787120745227,0,0,TRUE
+acoustic_model,1.004093071338301,1176.8229742136573,2048.531868906296,0,0,TRUE

@@ -1,0 +1,38 @@
+{
+  "chatter": {
+    "calls": 3612,
+    "diagonal_abs_max": 0.0,
+    "maximum": 1.7718473672866821,
+    "mean": 0.9924067258834839,
+    "minimum": 0.0,
+    "name": "chatter",
+    "symmetry_abs_max": 0.0
+  },
+  "dtw": {
+    "calls": 3612,
+    "diagonal_abs_max": 0.0,
+    "maximum": 0.05486048012971878,
+    "mean": 0.01106405071914196,
+    "minimum": 0.0,
+    "name": "dtw",
+    "symmetry_abs_max": 0.0
+  },
+  "mfcc": {
+    "calls": 3612,
+    "diagonal_abs_max": 0.0,
+    "maximum": 29.994203567504883,
+    "mean": 13.608390808105469,
+    "minimum": 0.0,
+    "name": "mfcc",
+    "symmetry_abs_max": 0.0
+  },
+  "traditional": {
+    "calls": 3612,
+    "diagonal_abs_max": 0.0,
+    "maximum": 15.161468505859375,
+    "mean": 4.232048988342285,
+    "minimum": 0.0,
+    "name": "traditional",
+    "symmetry_abs_max": 0.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "clipping_screen": {
+    "exact_digital_clipping": "one or more PCM-16 samples at either rail",
+    "flat_top_candidate": "at least 3 consecutive identical samples within 1% of the call peak, with peak amplitude >= -3 dBFS",
+    "near_full_scale_default": "peak amplitude >= -1.0 dBFS"
+  },
+  "digital_clipped_calls": 0,
+  "exact_duplicate_groups": 292,
+  "exact_duplicate_rows": 584,
+  "flat_top_clipped_calls": 0,
+  "near_full_scale_calls_at_minus_1_dbfs": 17,
+  "source_csv_sha256": "36dff3662b5ac3301028ddcb9198e9315c6fa91bfbaef770ae38ed23fc0706c0",
+  "source_rows": 3904,
+  "unique_calls": 3612
+}

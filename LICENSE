@@ -4,11 +4,12 @@ Repository licensing summary
 Unless a file states otherwise, this repository is licensed in two parts:
 
 1. Code and documentation
-   The code in `code/`, `scripts/`, `environment/`, `archive/legacy_code/`, and the repository documentation files are released under the MIT License.
+   The analysis code in `code/`, environment files in `environment/`, and
+   repository documentation are released under the MIT License.
    See `LICENSE-CODE`.
 
-2. Data, audio, figures, annotations, and derived outputs
-   The data tables, recordings, extracted calls, figure exports, annotations, and analysis outputs in this repository are released under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+2. Data and results
+   Data tables, recordings, annotations, figures, and derived analysis
+   results in `data/` and `results/` are released under the Creative Commons
+   Attribution 4.0 International License (CC BY 4.0).
    See `LICENSE-DATA`.
-
-This split is intended to make the repository straightforward to reuse for both software and data-sharing purposes and is consistent with the Royal Society's open-science expectations as checked on March 30, 2026.

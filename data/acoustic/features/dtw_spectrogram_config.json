@@ -1,0 +1,31 @@
+{
+  "amplitude_reference": "fixed dBFS, ref=1.0; no per-call normalization",
+  "bank_shape": [
+    3612,
+    611,
+    131
+  ],
+  "calls": 3612,
+  "fingerprint": "88dd407dabea93b6e4ebe1b4dd6024f2e49efdbeb360d28a8e2b7858f008c0e0",
+  "frequency_bins": 131,
+  "frequency_max_hz_actual": 11962.890625,
+  "frequency_min_hz_actual": 4028.3203125,
+  "spectrogram_config": {
+    "chatter_shape": [
+      128,
+      128
+    ],
+    "db_ceiling": 0.0,
+    "db_floor": -80.0,
+    "display_max_duration_s": 2.5008,
+    "dtw_band_prop": 0.2,
+    "dtw_center_stft": true,
+    "frequency_max_hz": 12000.0,
+    "frequency_min_hz": 4000.0,
+    "hop_length": 512,
+    "n_fft": 2048,
+    "sample_rate_hz": 125000,
+    "win_length": 2048
+  },
+  "stored_frames": "L2-unit frames implementing cosine distance"
+}

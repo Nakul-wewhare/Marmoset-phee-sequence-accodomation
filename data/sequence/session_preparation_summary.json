@@ -1,0 +1,16 @@
+{
+  "analysis_role": "canonical Script 3 figure input; same receiver-specific session definition used by Script 4",
+  "eligible_receiver_specific_repertoires": 107,
+  "excluded_groups_below_minimum": 54,
+  "excluded_sequences_below_minimum": 123,
+  "group_columns": [
+    "focal ID",
+    "conspecific_ID",
+    "stage",
+    "session_number"
+  ],
+  "minimum_sequences_per_session": 5,
+  "retained_sequences": 1496,
+  "source_multi_call_sequences": 1619,
+  "source_receiver_groups": 161
+}

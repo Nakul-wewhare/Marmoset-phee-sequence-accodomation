@@ -1,0 +1,123 @@
+{
+  "bonded_pair_lines": true,
+  "confidence": 0.5,
+  "effective_pacmap_config": null,
+  "ellipse_definition": "50% empirical coverage ellipse in the displayed 2-D embedding, scaled to the corresponding observed regularized Mahalanobis-distance quantile; covariance uses n-dependent isotropic shrinkage and a 0.6%-of-embedding-span variance floor",
+  "ellipse_inference": "descriptive only; not a confidence interval or hypothesis test",
+  "embedding_method": "UMAP",
+  "example_call_ids": [
+    75,
+    725,
+    2393,
+    1995,
+    909,
+    2149,
+    663,
+    1399,
+    2042,
+    3120,
+    3405,
+    3587,
+    1650,
+    669,
+    2807,
+    3597,
+    1977,
+    3439,
+    3185,
+    2758,
+    399,
+    1124,
+    3421,
+    2209
+  ],
+  "example_selection": "one non-clipped centroid-nearest call per individual x stage x social context",
+  "figure_config": {
+    "centroid_size": 220.0,
+    "connector_alpha": 0.42,
+    "connector_linewidth": 0.8,
+    "distribution_ellipse_radius_scale": 1.0,
+    "dpi": 300,
+    "example_highlight_size": 76.0,
+    "exclude_clipped_examples": true,
+    "figure_size_inches": [
+      16.0,
+      9.5
+    ],
+    "pacmap": {
+      "distance": "euclidean",
+      "fp_ratio": 2.0,
+      "mn_ratio": 0.5,
+      "n_neighbors": 30,
+      "random_state": 42
+    },
+    "point_alpha": 0.88,
+    "point_size": 28.0,
+    "text_scale": 1.68,
+    "umap": {
+      "min_dist": 0.1,
+      "n_neighbors": 30,
+      "random_state": 42
+    }
+  },
+  "high_dimensional_distance": "precomputed DTW",
+  "individual_display_labels": {
+    "Lola": "Female A",
+    "Nougatti": "Female C",
+    "Odin": "Male C",
+    "Olympia": "Female B",
+    "Tabor": "Male A",
+    "Wuschel": "Male B"
+  },
+  "metric": "dtw",
+  "metric_label": "DTW",
+  "overview_centroids": false,
+  "overview_point_shapes": {
+    "non-partner": "s",
+    "partner": "^"
+  },
+  "spectrogram_display_config": {
+    "chatter_shape": [
+      128,
+      128
+    ],
+    "db_ceiling": 0.0,
+    "db_floor": -80.0,
+    "display_max_duration_s": 2.5008,
+    "dtw_band_prop": 0.2,
+    "dtw_center_stft": true,
+    "frequency_max_hz": 12000.0,
+    "frequency_min_hz": 4000.0,
+    "hop_length": 512,
+    "n_fft": 2048,
+    "sample_rate_hz": 125000,
+    "win_length": 2048
+  },
+  "subject_id_crosswalk": {
+    "Lola": {
+      "new_subject_id": "Female A",
+      "previous_subject_id": "D"
+    },
+    "Nougatti": {
+      "new_subject_id": "Female C",
+      "previous_subject_id": "E"
+    },
+    "Odin": {
+      "new_subject_id": "Male C",
+      "previous_subject_id": "C"
+    },
+    "Olympia": {
+      "new_subject_id": "Female B",
+      "previous_subject_id": "F"
+    },
+    "Tabor": {
+      "new_subject_id": "Male A",
+      "previous_subject_id": "A"
+    },
+    "Wuschel": {
+      "new_subject_id": "Male B",
+      "previous_subject_id": "B"
+    }
+  },
+  "subset_centroids": true
+}

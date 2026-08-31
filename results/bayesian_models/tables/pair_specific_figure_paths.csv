@@ -1,0 +1,4 @@
+pair,contains_model_extrapolation,png
+Odin-Nougatti,TRUE,results/bayesian_models/figures/pair_specific/odin_nougatti_interaction_panel.png
+Tabor-Lola,FALSE,results/bayesian_models/figures/pair_specific/tabor_lola_interaction_panel.png
+Wuschel-Olympia,FALSE,results/bayesian_models/figures/pair_specific/wuschel_olympia_interaction_panel.png

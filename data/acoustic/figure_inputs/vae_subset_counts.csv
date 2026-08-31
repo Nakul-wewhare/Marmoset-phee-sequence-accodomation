@@ -1,0 +1,25 @@
+focal ID,stage,paired_status,n_calls,ellipse_drawn
+Lola,after,non-partner,493,True
+Lola,after,partner,69,True
+Lola,before,non-partner,31,True
+Lola,before,partner,48,True
+Nougatti,after,non-partner,302,True
+Nougatti,after,partner,56,True
+Nougatti,before,non-partner,285,True
+Nougatti,before,partner,140,True
+Odin,after,non-partner,445,True
+Odin,after,partner,8,True
+Odin,before,non-partner,298,True
+Odin,before,partner,166,True
+Olympia,after,non-partner,46,True
+Olympia,after,partner,29,True
+Olympia,before,non-partner,76,True
+Olympia,before,partner,61,True
+Tabor,after,non-partner,386,True
+Tabor,after,partner,59,True
+Tabor,before,non-partner,142,True
+Tabor,before,partner,49,True
+Wuschel,after,non-partner,118,True
+Wuschel,after,partner,77,True
+Wuschel,before,non-partner,114,True
+Wuschel,before,partner,114,True

@@ -1,0 +1,38 @@
+{
+  "bigram": {
+    "calls": 107,
+    "diagonal_abs_max": 0.0,
+    "maximum": 1.2271350622177124,
+    "mean": 0.35701119899749756,
+    "minimum": 0.0,
+    "name": "receiver-specific bigram",
+    "symmetry_abs_max": 0.0
+  },
+  "local_alignment": {
+    "calls": 107,
+    "diagonal_abs_max": 0.0,
+    "maximum": 2.36224627494812,
+    "mean": 1.1580281257629395,
+    "minimum": 0.0,
+    "name": "receiver-specific local_alignment",
+    "symmetry_abs_max": 0.0
+  },
+  "repeat_A": {
+    "calls": 107,
+    "diagonal_abs_max": 0.0,
+    "maximum": 1.4139975309371948,
+    "mean": 0.4570164382457733,
+    "minimum": 0.0,
+    "name": "receiver-specific repeat_A",
+    "symmetry_abs_max": 0.0
+  },
+  "transition_probability": {
+    "calls": 107,
+    "diagonal_abs_max": 0.0,
+    "maximum": 2.43855619430542,
+    "mean": 1.1895921230316162,
+    "minimum": 0.0,
+    "name": "receiver-specific transition_probability",
+    "symmetry_abs_max": 0.0
+  }
+}

@@ -1,28 +1,26 @@
-cran_packages <- c(
-  "bayesplot",
-  "broom.mixed",
-  "brms",
-  "emmeans",
-  "lme4",
-  "lmerTest",
-  "loo",
-  "patchwork",
-  "posterior",
-  "rstan",
-  "rstudioapi",
-  "stringr",
-  "tidybayes",
-  "tidyverse"
-)
+# Install the R packages used by Script 4.
 
-installed <- rownames(installed.packages())
-to_install <- setdiff(cran_packages, installed)
-
-if (length(to_install)) {
-  install.packages(to_install, repos = "https://cloud.r-project.org")
-} else {
-  message("All listed R packages are already installed.")
+if (identical(getOption("repos")[["CRAN"]], "@CRAN@")) {
+  options(repos = c(CRAN = "https://cloud.r-project.org"))
 }
 
-message("Note: the final Bayesian script uses brms with backend = 'rstan'.")
-message("If model fitting fails, check that your local Stan toolchain is configured correctly.")
+required_packages <- c(
+  "tidyverse",
+  "brms",
+  "tidybayes",
+  "bayesplot",
+  "posterior",
+  "patchwork",
+  "rstan",
+  "rstudioapi"
+)
+
+packages_to_install <- required_packages[
+  !vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)
+]
+
+if (length(packages_to_install)) {
+  install.packages(packages_to_install)
+} else {
+  message("All required R packages are already installed.")
+}

@@ -1,0 +1,25 @@
+analysis,pair,context,stage,session_comparisons
+Sequence structure,Tabor-Lola,Partner,before,4
+Sequence structure,Tabor-Lola,Partner,after,4
+Sequence structure,Tabor-Lola,Non-partner,before,8
+Sequence structure,Tabor-Lola,Non-partner,after,100
+Sequence structure,Odin-Nougatti,Partner,before,36
+Sequence structure,Odin-Nougatti,Partner,after,0
+Sequence structure,Odin-Nougatti,Non-partner,before,72
+Sequence structure,Odin-Nougatti,Non-partner,after,63
+Sequence structure,Wuschel-Olympia,Partner,before,16
+Sequence structure,Wuschel-Olympia,Partner,after,2
+Sequence structure,Wuschel-Olympia,Non-partner,before,18
+Sequence structure,Wuschel-Olympia,Non-partner,after,8
+Call structure,Tabor-Lola,Partner,before,6
+Call structure,Tabor-Lola,Partner,after,6
+Call structure,Tabor-Lola,Non-partner,before,27
+Call structure,Tabor-Lola,Non-partner,after,100
+Call structure,Odin-Nougatti,Partner,before,36
+Call structure,Odin-Nougatti,Partner,after,0
+Call structure,Odin-Nougatti,Non-partner,before,90
+Call structure,Odin-Nougatti,Non-partner,after,72
+Call structure,Wuschel-Olympia,Partner,before,20
+Call structure,Wuschel-Olympia,Partner,after,6
+Call structure,Wuschel-Olympia,Non-partner,before,54
+Call structure,Wuschel-Olympia,Non-partner,after,14

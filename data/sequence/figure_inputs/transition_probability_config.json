@@ -1,0 +1,119 @@
+{
+  "bonded_pair_lines": true,
+  "call_token_display_labels": {
+    "A": "A \u2013 Phee",
+    "K": "K \u2013 Egg",
+    "P": "P \u2013 Peep",
+    "R": "R \u2013 Trillphee",
+    "S": "S \u2013 SD-peep",
+    "T": "T \u2013 Tsk"
+  },
+  "call_token_full_names": {
+    "A": "Phee",
+    "K": "Egg",
+    "P": "Peep",
+    "R": "Trillphee",
+    "S": "SD-peep",
+    "T": "Tsk"
+  },
+  "call_type_legend_shown": true,
+  "confidence": 0.5,
+  "ellipse_definition": "Descriptive 50th-percentile spread ellipse in the displayed 2-D embedding, scaled to the corresponding observed regularized Mahalanobis-distance quantile; covariance uses n-dependent isotropic shrinkage and a 0.6%-of-embedding-span variance floor; the displayed radii are multiplied by 1.00 for legibility",
+  "ellipse_inference": "descriptive only; not a confidence interval or hypothesis test",
+  "ellipse_minimum_points": 2,
+  "embedding_method": "PaCMAP",
+  "example_card_content": "row-normalized transition-probability heatmap; rows=current, columns=next",
+  "example_group_ids": [
+    6,
+    29,
+    80,
+    38,
+    14,
+    45,
+    54,
+    55,
+    76,
+    103,
+    26,
+    64,
+    101,
+    87,
+    69,
+    3
+  ],
+  "example_heatmap_scale": "fixed 0-to-1 scale",
+  "figure_config": {
+    "centroid_size": 235.0,
+    "connector_alpha": 0.3,
+    "connector_linewidth": 0.9,
+    "distribution_ellipse_radius_scale": 1.0,
+    "dpi": 300,
+    "example_highlight_size": 130.0,
+    "examples_per_side": 3,
+    "figure_size_inches": [
+      16.0,
+      9.5
+    ],
+    "heatmap_examples_per_side": 4,
+    "pacmap": {
+      "distance": "euclidean",
+      "fp_ratio": 2.0,
+      "mn_ratio": 0.5,
+      "n_neighbors": 30,
+      "random_state": 42
+    },
+    "point_alpha": 0.97,
+    "point_size": 82.0,
+    "repeat_examples_per_side": 4,
+    "text_scale": 1.68,
+    "umap": {
+      "min_dist": 0.1,
+      "n_neighbors": 30,
+      "random_state": 42
+    }
+  },
+  "high_dimensional_input": "stored metric feature vectors with Euclidean PaCMAP",
+  "individual_display_labels": {
+    "Lola": "Female A",
+    "Nougatti": "Female C",
+    "Odin": "Male C",
+    "Olympia": "Female B",
+    "Tabor": "Male A",
+    "Wuschel": "Male B"
+  },
+  "metric": "transition_probability",
+  "metric_label": "Transition probability",
+  "overview_centroids": false,
+  "overview_point_shapes": {
+    "non-partner": "s",
+    "partner": "^"
+  },
+  "single_point_subsets": "centroid shown; no ellipse",
+  "subject_id_crosswalk": {
+    "Lola": {
+      "new_subject_id": "Female A",
+      "previous_subject_id": "D"
+    },
+    "Nougatti": {
+      "new_subject_id": "Female C",
+      "previous_subject_id": "E"
+    },
+    "Odin": {
+      "new_subject_id": "Male C",
+      "previous_subject_id": "C"
+    },
+    "Olympia": {
+      "new_subject_id": "Female B",
+      "previous_subject_id": "F"
+    },
+    "Tabor": {
+      "new_subject_id": "Male A",
+      "previous_subject_id": "A"
+    },
+    "Wuschel": {
+      "new_subject_id": "Male B",
+      "previous_subject_id": "B"
+    }
+  },
+  "subset_centroids": true
+}

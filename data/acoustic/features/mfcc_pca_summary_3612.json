@@ -1,0 +1,14 @@
+{
+  "calls": 3612,
+  "components": 5,
+  "distance": "euclidean",
+  "explained_variance_ratio": [
+    0.33971851630548716,
+    0.22061223038666766,
+    0.11260424835745243,
+    0.063793350547384,
+    0.054267884690379006
+  ],
+  "features": 132,
+  "total_explained_variance": 0.7909962302873702
+}

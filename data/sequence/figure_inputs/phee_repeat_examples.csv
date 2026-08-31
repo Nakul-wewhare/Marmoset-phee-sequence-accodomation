@@ -1,0 +1,97 @@
+border_order,border_side,group_id,focal ID,conspecific_ID,stage,paired_status,session_number,pair_id,selection_reason,sequence_order,exact_sequence,count
+1,top,17,Nougatti,Odin,after,partner,6.0,Odin-Nougatti,individual-stage centroid-nearest,1,AA,6
+1,top,17,Nougatti,Odin,after,partner,6.0,Odin-Nougatti,individual-stage centroid-nearest,2,APA,6
+1,top,17,Nougatti,Odin,after,partner,6.0,Odin-Nougatti,individual-stage centroid-nearest,3,AAP,2
+1,top,17,Nougatti,Odin,after,partner,6.0,Odin-Nougatti,individual-stage centroid-nearest,4,AAPP,2
+1,top,17,Nougatti,Odin,after,partner,6.0,Odin-Nougatti,individual-stage centroid-nearest,5,AP,1
+1,top,17,Nougatti,Odin,after,partner,6.0,Odin-Nougatti,individual-stage centroid-nearest,6,AAA,1
+1,top,17,Nougatti,Odin,after,partner,6.0,Odin-Nougatti,individual-stage centroid-nearest,7,APAK,1
+1,top,17,Nougatti,Odin,after,partner,6.0,Odin-Nougatti,individual-stage centroid-nearest,8,SSAAAP,1
+2,top,11,Lola,Wuschel,after,non-partner,4.0,Tabor-Lola,individual-stage centroid-nearest,1,AA,6
+2,top,11,Lola,Wuschel,after,non-partner,4.0,Tabor-Lola,individual-stage centroid-nearest,2,AAA,3
+2,top,11,Lola,Wuschel,after,non-partner,4.0,Tabor-Lola,individual-stage centroid-nearest,3,AP,2
+2,top,11,Lola,Wuschel,after,non-partner,4.0,Tabor-Lola,individual-stage centroid-nearest,4,AAP,1
+3,top,42,Odin,Lola,after,non-partner,4.0,Odin-Nougatti,individual-stage centroid-nearest,1,AA,6
+3,top,42,Odin,Lola,after,non-partner,4.0,Odin-Nougatti,individual-stage centroid-nearest,2,RA,2
+3,top,42,Odin,Lola,after,non-partner,4.0,Odin-Nougatti,individual-stage centroid-nearest,3,AAA,2
+3,top,42,Odin,Lola,after,non-partner,4.0,Odin-Nougatti,individual-stage centroid-nearest,4,AP,1
+3,top,42,Odin,Lola,after,non-partner,4.0,Odin-Nougatti,individual-stage centroid-nearest,5,APAA,1
+3,top,42,Odin,Lola,after,non-partner,4.0,Odin-Nougatti,individual-stage centroid-nearest,6,PPPAA,1
+3,top,42,Odin,Lola,after,non-partner,4.0,Odin-Nougatti,individual-stage centroid-nearest,7,APPAAA,1
+3,top,42,Odin,Lola,after,non-partner,4.0,Odin-Nougatti,individual-stage centroid-nearest,8,APPAAPA,1
+3,top,42,Odin,Lola,after,non-partner,4.0,Odin-Nougatti,individual-stage centroid-nearest,9,APPPAAA,1
+3,top,42,Odin,Lola,after,non-partner,4.0,Odin-Nougatti,individual-stage centroid-nearest,10,APPPPAAA,1
+4,top,18,Nougatti,Odin,before,partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,1,AAPP,2
+4,top,18,Nougatti,Odin,before,partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,2,RAPP,2
+4,top,18,Nougatti,Odin,before,partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,3,AP,1
+4,top,18,Nougatti,Odin,before,partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,4,AAA,1
+4,top,18,Nougatti,Odin,before,partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,5,RAP,1
+4,top,18,Nougatti,Odin,before,partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,6,RAAP,1
+4,top,18,Nougatti,Odin,before,partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,7,AAAPP,1
+5,right,102,Wuschel,Olympia,after,partner,4.0,Wuschel-Olympia,balanced farthest-point coverage,1,AAA,7
+5,right,102,Wuschel,Olympia,after,partner,4.0,Wuschel-Olympia,balanced farthest-point coverage,2,AA,5
+5,right,102,Wuschel,Olympia,after,partner,4.0,Wuschel-Olympia,balanced farthest-point coverage,3,AAP,3
+5,right,102,Wuschel,Olympia,after,partner,4.0,Wuschel-Olympia,balanced farthest-point coverage,4,AAAPP,2
+5,right,102,Wuschel,Olympia,after,partner,4.0,Wuschel-Olympia,balanced farthest-point coverage,5,AAPS,1
+5,right,102,Wuschel,Olympia,after,partner,4.0,Wuschel-Olympia,balanced farthest-point coverage,6,AAAAP,1
+5,right,102,Wuschel,Olympia,after,partner,4.0,Wuschel-Olympia,balanced farthest-point coverage,7,AAPPS,1
+5,right,102,Wuschel,Olympia,after,partner,4.0,Wuschel-Olympia,balanced farthest-point coverage,8,AAAPPPP,1
+6,right,76,Tabor,Lola,before,partner,6.0,Tabor-Lola,individual-stage centroid-nearest,1,PAAPP,2
+6,right,76,Tabor,Lola,before,partner,6.0,Tabor-Lola,individual-stage centroid-nearest,2,AA,1
+6,right,76,Tabor,Lola,before,partner,6.0,Tabor-Lola,individual-stage centroid-nearest,3,AAAAP,1
+6,right,76,Tabor,Lola,before,partner,6.0,Tabor-Lola,individual-stage centroid-nearest,4,PAAAP,1
+6,right,76,Tabor,Lola,before,partner,6.0,Tabor-Lola,individual-stage centroid-nearest,5,APPAAP,1
+6,right,76,Tabor,Lola,before,partner,6.0,Tabor-Lola,individual-stage centroid-nearest,6,SPAAAP,1
+7,right,89,Tabor,Olympia,before,non-partner,4.0,Tabor-Lola,balanced farthest-point coverage,1,AP,2
+7,right,89,Tabor,Olympia,before,non-partner,4.0,Tabor-Lola,balanced farthest-point coverage,2,AAAP,2
+7,right,89,Tabor,Olympia,before,non-partner,4.0,Tabor-Lola,balanced farthest-point coverage,3,PAAAP,2
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,1,AAA,4
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,2,AP,3
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,3,AAAA,2
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,4,AA,1
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,5,RA,1
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,6,APP,1
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,7,APAAA,1
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,8,APPAA,1
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,9,AAAPPP,1
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,10,AKKKTS,1
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,11,APAAAA,1
+8,right,44,Odin,Lola,after,non-partner,6.0,Odin-Nougatti,balanced farthest-point coverage,12,APAAPPA,1
+9,bottom,78,Tabor,Nougatti,after,non-partner,3.0,Tabor-Lola,individual-stage centroid-nearest,1,AA,1
+9,bottom,78,Tabor,Nougatti,after,non-partner,3.0,Tabor-Lola,individual-stage centroid-nearest,2,AAA,1
+9,bottom,78,Tabor,Nougatti,after,non-partner,3.0,Tabor-Lola,individual-stage centroid-nearest,3,AAP,1
+9,bottom,78,Tabor,Nougatti,after,non-partner,3.0,Tabor-Lola,individual-stage centroid-nearest,4,AAAA,1
+9,bottom,78,Tabor,Nougatti,after,non-partner,3.0,Tabor-Lola,individual-stage centroid-nearest,5,AAAP,1
+9,bottom,78,Tabor,Nougatti,after,non-partner,3.0,Tabor-Lola,individual-stage centroid-nearest,6,AAPP,1
+9,bottom,78,Tabor,Nougatti,after,non-partner,3.0,Tabor-Lola,individual-stage centroid-nearest,7,AAAAPP,1
+9,bottom,78,Tabor,Nougatti,after,non-partner,3.0,Tabor-Lola,individual-stage centroid-nearest,8,AAAPPP,1
+10,bottom,45,Odin,Lola,before,non-partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,1,AA,5
+10,bottom,45,Odin,Lola,before,non-partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,2,RA,2
+10,bottom,45,Odin,Lola,before,non-partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,3,AAA,2
+10,bottom,45,Odin,Lola,before,non-partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,4,AAPPPPK,1
+10,bottom,45,Odin,Lola,before,non-partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,5,RAATKKK,1
+10,bottom,45,Odin,Lola,before,non-partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,6,RTKKTKK,1
+10,bottom,45,Odin,Lola,before,non-partner,1.0,Odin-Nougatti,individual-stage centroid-nearest,7,TKKAAATKKTKTKKT,1
+11,bottom,70,Olympia,Wuschel,before,partner,4.0,Wuschel-Olympia,individual-stage centroid-nearest,1,AA,2
+11,bottom,70,Olympia,Wuschel,before,partner,4.0,Wuschel-Olympia,individual-stage centroid-nearest,2,RA,2
+11,bottom,70,Olympia,Wuschel,before,partner,4.0,Wuschel-Olympia,individual-stage centroid-nearest,3,AAP,1
+12,bottom,64,Olympia,Odin,after,non-partner,3.0,Wuschel-Olympia,individual-stage centroid-nearest,1,AA,6
+12,bottom,64,Olympia,Odin,after,non-partner,3.0,Wuschel-Olympia,individual-stage centroid-nearest,2,AP,1
+13,left,91,Wuschel,Lola,after,non-partner,3.0,Wuschel-Olympia,individual-stage centroid-nearest,1,AA,13
+13,left,91,Wuschel,Lola,after,non-partner,3.0,Wuschel-Olympia,individual-stage centroid-nearest,2,AAA,1
+13,left,91,Wuschel,Lola,after,non-partner,3.0,Wuschel-Olympia,individual-stage centroid-nearest,3,AAK,1
+14,left,8,Lola,Tabor,before,partner,6.0,Tabor-Lola,individual-stage centroid-nearest,1,AA,8
+14,left,8,Lola,Tabor,before,partner,6.0,Tabor-Lola,individual-stage centroid-nearest,2,APAA,2
+14,left,8,Lola,Tabor,before,partner,6.0,Tabor-Lola,individual-stage centroid-nearest,3,AAA,1
+14,left,8,Lola,Tabor,before,partner,6.0,Tabor-Lola,individual-stage centroid-nearest,4,PAA,1
+14,left,8,Lola,Tabor,before,partner,6.0,Tabor-Lola,individual-stage centroid-nearest,5,APAP,1
+15,left,94,Wuschel,Lola,before,non-partner,2.0,Wuschel-Olympia,individual-stage centroid-nearest,1,AA,4
+15,left,94,Wuschel,Lola,before,non-partner,2.0,Wuschel-Olympia,individual-stage centroid-nearest,2,AAPS,2
+15,left,94,Wuschel,Lola,before,non-partner,2.0,Wuschel-Olympia,individual-stage centroid-nearest,3,AAPPA,2
+15,left,94,Wuschel,Lola,before,non-partner,2.0,Wuschel-Olympia,individual-stage centroid-nearest,4,AAA,1
+15,left,94,Wuschel,Lola,before,non-partner,2.0,Wuschel-Olympia,individual-stage centroid-nearest,5,AAPPS,1
+15,left,94,Wuschel,Lola,before,non-partner,2.0,Wuschel-Olympia,individual-stage centroid-nearest,6,AAAPPP,1
+16,left,69,Olympia,Wuschel,before,partner,3.0,Wuschel-Olympia,balanced farthest-point coverage,1,AA,6
+16,left,69,Olympia,Wuschel,before,partner,3.0,Wuschel-Olympia,balanced farthest-point coverage,2,AAA,1
+16,left,69,Olympia,Wuschel,before,partner,3.0,Wuschel-Olympia,balanced farthest-point coverage,3,AAP,1
+16,left,69,Olympia,Wuschel,before,partner,3.0,Wuschel-Olympia,balanced farthest-point coverage,4,APPAA,1

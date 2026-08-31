@@ -1,0 +1,24 @@
+focal ID,stage,paired_status,n_session_repertoires,ellipse_drawn
+Lola,after,non-partner,10,True
+Lola,after,partner,2,True
+Lola,before,non-partner,2,True
+Lola,before,partner,2,True
+Nougatti,after,non-partner,7,True
+Nougatti,after,partner,2,True
+Nougatti,before,non-partner,9,True
+Nougatti,before,partner,6,True
+Odin,after,non-partner,9,True
+Odin,before,non-partner,8,True
+Odin,before,partner,6,True
+Olympia,after,non-partner,2,True
+Olympia,after,partner,1,False
+Olympia,before,non-partner,3,True
+Olympia,before,partner,4,True
+Tabor,after,non-partner,10,True
+Tabor,after,partner,2,True
+Tabor,before,non-partner,4,True
+Tabor,before,partner,2,True
+Wuschel,after,non-partner,4,True
+Wuschel,after,partner,2,True
+Wuschel,before,non-partner,6,True
+Wuschel,before,partner,4,True

@@ -1,0 +1,13 @@
+analysis,pair,context,before_comparisons,after_comparisons,has_before_and_after
+Call structure,Odin-Nougatti,Non-partner,90,72,TRUE
+Call structure,Odin-Nougatti,Partner,36,0,FALSE
+Call structure,Tabor-Lola,Non-partner,27,100,TRUE
+Call structure,Tabor-Lola,Partner,6,6,TRUE
+Call structure,Wuschel-Olympia,Non-partner,54,14,TRUE
+Call structure,Wuschel-Olympia,Partner,20,6,TRUE
+Sequence structure,Odin-Nougatti,Non-partner,72,63,TRUE
+Sequence structure,Odin-Nougatti,Partner,36,0,FALSE
+Sequence structure,Tabor-Lola,Non-partner,8,100,TRUE
+Sequence structure,Tabor-Lola,Partner,4,4,TRUE
+Sequence structure,Wuschel-Olympia,Non-partner,18,8,TRUE
+Sequence structure,Wuschel-Olympia,Partner,16,2,TRUE

@@ -1,0 +1,5 @@
+metric,dtype,minimum,maximum,diagonal_abs_max,symmetry_abs_max
+T_PC_pairwise,float32,0,15.161468505859375,0,0
+M_PC_pairwise,float32,0,29.994203567504883,0,0
+spectro_DTW,float32,0,0.05486048012971878,0,0
+chatter_cosine,float32,0,1.7718473672866821,0,0

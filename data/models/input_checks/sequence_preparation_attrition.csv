@@ -1,0 +1,8 @@
+step,count,unit
+Original annotated sequence rows,2042,sequences
+Single-call sequences excluded,423,sequences
+Multi-call sequences,1619,sequences
+Potential receiver-specific session repertoires,161,repertoires
+Minimum sequences required per repertoire,5,sequences
+Eligible receiver-specific repertoires,107,repertoires
+Retained sequences,1496,sequences

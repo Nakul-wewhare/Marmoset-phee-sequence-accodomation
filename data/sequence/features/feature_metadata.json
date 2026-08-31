@@ -1,0 +1,69 @@
+{
+  "alphabet": [
+    "A",
+    "K",
+    "P",
+    "R",
+    "S",
+    "T"
+  ],
+  "bigram_vocabulary": [
+    "AA",
+    "AK",
+    "AP",
+    "AR",
+    "AS",
+    "AT",
+    "KA",
+    "KK",
+    "KP",
+    "KR",
+    "KS",
+    "KT",
+    "PA",
+    "PK",
+    "PP",
+    "PR",
+    "PS",
+    "PT",
+    "RA",
+    "RK",
+    "RP",
+    "RR",
+    "RS",
+    "RT",
+    "SA",
+    "SK",
+    "SP",
+    "SR",
+    "SS",
+    "ST",
+    "TA",
+    "TK",
+    "TP",
+    "TR",
+    "TS",
+    "TT"
+  ],
+  "definitions": {
+    "bigram": "Script 4 Euclidean distance between complete-alphabet bigram frequencies, denominator count + 1e-3",
+    "local_alignment": "Script 3 figure method: Smith-Waterman 2/-1/-1; divide each sequence-pair score by log(combined sequence length); average every sequence pair; convert similarity to distance using the global maximum. Script 4 uses this exact saved matrix.",
+    "repeat_A": "Script 4 Euclidean distance between Phee-run probabilities for lengths 2-5, denominator count + 1e-3",
+    "transition_probability": "Script 4 Euclidean distance between flattened row-normalized transition matrices"
+  },
+  "groups": 107,
+  "model_metric_consistency": {
+    "bigram": true,
+    "local_alignment": true,
+    "repeat_A": true,
+    "transition_probability": true
+  },
+  "model_session_consistent": true,
+  "receiver_specific": true,
+  "session_key": [
+    "focal ID",
+    "conspecific_ID",
+    "stage",
+    "session_number"
+  ]
+}
