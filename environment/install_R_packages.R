@@ -1,16 +1,7 @@
 cran_packages <- c(
-  "bayesplot",
-  "broom.mixed",
   "brms",
-  "emmeans",
-  "lme4",
-  "lmerTest",
-  "loo",
   "patchwork",
-  "posterior",
   "rstan",
-  "rstudioapi",
-  "stringr",
   "tidybayes",
   "tidyverse"
 )
@@ -24,5 +15,6 @@ if (length(to_install)) {
   message("All listed R packages are already installed.")
 }
 
-message("Note: the final Bayesian script uses brms with backend = 'rstan'.")
-message("If model fitting fails, check that your local Stan toolchain is configured correctly.")
+message("Script 5a can validate inputs and load cached models without sampling.")
+message("The --fit and --refit options use brms with backend = 'rstan'.")
+message("Those options require a working local Stan/C++ toolchain.")

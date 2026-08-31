@@ -1,84 +1,125 @@
-# Sequence-level vocal convergence in common marmosets
+# Marmoset phee-call sequence accommodation
 
-This repository contains the essential code, data, and manuscript outputs needed to reproduce the analyses for the current version of the manuscript:
+This repository is a readable record of the analysis used to study changes in
+common-marmoset phee calls and call sequences before and after social pairing.
+It keeps the analysis in the same notebook-first style in which it was
+developed: the calculations, checks, and figures are shown together, with
+comments written for someone encountering the project for the first time.
 
-*Sequence-level vocal convergence in common marmosets*  
-Wewhare et al., 2026 (manuscript)
+The aim is to make the analysis understandable and reusable. It is not a
+one-command reconstruction of every manuscript file, and it is intentionally
+not organized as a Python package.
 
-Repository URL: [github.com/Nakul-wewhare/Marmoset-phee-sequence-accodomation](https://github.com/Nakul-wewhare/Marmoset-phee-sequence-accodomation)  
-Manuscript-ready repository prepared on March 30, 2026
+## Analysis files
 
-The repository includes the manuscript-essential reproducibility materials:
+Read the files in this order:
 
-- extracted single-call WAV files in `extracted calls/`
-- processed sequence and spectral tables in `seqeunce data/` and `spectral data/`
-- model-ready tables in `glm data/`
-- final manuscript summary tables and figures in `glm data/brms_manuscript_outputs-newsession/`
+1. `code/script_1_data_preprocess.ipynb` cleans the extracted call and sequence
+   annotations and explains the columns used later.
+2. `code/script_2a_spectral_measurements.ipynb` calculates and visualizes the
+   acoustic call measurements.
+3. `code/script_3a_sequence_measurements.ipynb` calculates and visualizes the
+   sequence measurements.
+4. `code/script_5a_R_Bayesian_interaction_models.R` fits the final interaction
+   models and summarizes the before-to-after posterior contrasts.
 
-The code here reproduces the main data processing, distance metrics, and Bayesian multilevel models reported in the paper.
+The notebooks retain the direct, exploratory structure of the original
+analysis, but duplicated cells and private working notes have been removed.
+Markdown and code comments explain why each section exists, what it reads, and
+what it produces.
 
-The working tree has been trimmed to the files required for the current manuscript workflow. Historical folder names such as `seqeunce data` are intentionally retained because the notebooks refer to them directly.
+## Expensive calculations are off by default
 
-## Main workflow
+Some pairwise acoustic and sequence comparisons take a long time. Each
+notebook has a clearly marked setting near the beginning that leaves those
+steps disabled by default and loads the previously calculated tables instead.
+Turn a recomputation switch on only when you have the complete source data and
+intend to replace the cached result.
 
-The main reproducible workflow follows the manuscript Methods section:
+The saved call- and repertoire-distance matrices expected by Scripts 2a and 3a
+are not included in the current public checkout. Their default branches report
+that clearly instead of beginning the costly all-pairs calculations. Script 3a
+can still produce its descriptive sequence summaries from the processed CSV.
+Script 2a looks for the three `*_dist_matrix_2200calls.npy` files and
+`labels_2200calls.csv`; Script 3a looks for
+`sequence_distance_matrices.npz` and `sequence_session_labels.csv`. All belong
+in a local `distance_matrices/` folder.
 
-1. `code/script_2_spectral_measurements.ipynb`
-2. `code/script_3_seq_measurements.ipynb`
-3. `code/script_4_GLM preprocessing.ipynb`
-4. `code/script_5_R_Bayesian_models.R`
+Script 4a is not presented as another public workflow step. Its model-table
+outputs are treated as precomputed inputs to Script 5a:
 
-The repository now starts from the processed sequence table, processed spectral table, extracted call WAV files, and model-ready analysis tables required by the current manuscript. Earlier manual extraction and annotation materials, legacy code, duplicate outputs, and bulky saved model objects were removed because they are not required for the current manuscript version.
+- `glm data/glm_data_seq_interaction.csv`
+- `glm data/glm_data_call_interaction.csv`
 
-## Citation and licensing
+The public repository does not include the call interaction table or saved
+`brms` model objects. They must be supplied before Script 5a can complete the
+call-structure analysis. The R script checks for these files and stops with a
+plain explanation when they are unavailable; it does not silently rebuild
+them.
 
-- Citation metadata is provided in `CITATION.cff`.
-- Code in `code/`, `scripts/`, `environment/`, and repository documentation is released under the MIT License.
-- Data, audio, figures, and derived analysis outputs are released under CC BY 4.0.
-- The licence split is described in `LICENSE`, with full text or pointers in `LICENSE-CODE` and `LICENSE-DATA`.
-- Copy-ready manuscript and submission text is provided in `docs/MANUSCRIPT_TEXT.md`.
+## Setup
 
-## Directory guide
-
-- `extracted calls/`: extracted phee-call WAV files used for acoustic comparisons.
-- `seqeunce data/`: processed sequence data tables.
-- `spectral data/`: processed spectral tables used by the current manuscript workflow.
-- `glm data/`: model-ready analysis tables and current manuscript summary outputs.
-- `figures/manuscript_exports/`: manuscript figure exports copied from the working analysis folder.
-
-## Reproducing the results
-
-### Fastest route: rerun only the final Bayesian models
-
-The model-ready tables are already included in `glm data/`.
-
-```bash
-Rscript environment/install_R_packages.R
-cd code
-Rscript script_5_R_Bayesian_models.R
-```
-
-This writes the final outputs to `glm data/brms_manuscript_outputs-newsession/`.
-
-Set `MANUSCRIPT_REPO_SAVE_AUXILIARY=1` to also save per-model diagnostic files, and set `MANUSCRIPT_REPO_SAVE_MODELS=1` to save full fitted model objects.
-
-### Full scripted route from the included processed inputs
-
-Install the Python and R dependencies, then run the notebooks and final model script in order:
+Python 3.11 or newer is recommended. From the repository root:
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
 python -m pip install -r environment/python-requirements.txt
-Rscript environment/install_R_packages.R
-bash scripts/run_repro_pipeline.sh
+jupyter notebook
 ```
 
-### Scope of the trimmed repository
+Open the notebooks from `code/` and run them in numerical order. Their default
+settings favor the included processed or cached inputs.
 
-This trimmed repository is designed to reproduce the current manuscript from the inputs actually required by the automated workflow: extracted call WAV files, processed sequence and spectral tables, and model-ready analysis tables. It does not include earlier manual preprocessing artifacts, duplicate historical outputs, or large saved model objects that are not required for the current manuscript version.
+Install the R packages separately:
 
-## Methods crosswalk
+```bash
+Rscript environment/install_R_packages.R
+```
 
-- Sequence metrics (transition probabilities, bigrams, repeat distribution, local alignment): `code/script_3_seq_measurements.ipynb`
-- Acoustic metrics (STP, MFCC, DTW): `code/script_2_spectral_measurements.ipynb`
-- Model-table assembly: `code/script_4_GLM preprocessing.ipynb`
-- Bayesian multilevel models and manuscript-ready outputs: `code/script_5_R_Bayesian_models.R`
+Stan compilation also requires a working C++ toolchain. That toolchain is only
+needed when model fitting is explicitly requested.
+
+## Running Script 5a safely
+
+The ordinary command is cache-only:
+
+```bash
+Rscript code/script_5a_R_Bayesian_interaction_models.R
+```
+
+It validates the two precomputed input tables and loads compatible saved model
+objects when they exist. It never starts sampling. If an input or model cache
+is missing, the script reports it and stops safely.
+
+Model fitting is always an explicit choice:
+
+```bash
+# Fit only models whose saved model is missing
+Rscript code/script_5a_R_Bayesian_interaction_models.R --fit
+
+# Replace both saved models, even when caches exist
+Rscript code/script_5a_R_Bayesian_interaction_models.R --refit
+```
+
+Both fitting modes can take hours. Saved models and generated summaries are
+written below `glm data/brms_interaction_outputs/`.
+
+## Data folders
+
+- `extracted calls/` contains the individual WAV clips available with this
+  repository.
+- `spectral data/` contains processed acoustic measurements.
+- `seqeunce data/` contains processed sequence annotations. The historical
+  spelling is retained because the notebooks use it.
+- `glm data/` contains model-ready tables.
+
+The repository does not contain every intermediate object from the original
+working computer. In particular, a reader should not enable an expensive
+recalculation unless the inputs named in that notebook are available locally.
+
+## Citation and licences
+
+Citation metadata is in `CITATION.cff`. Code is released under the MIT License;
+data, audio, figures, and derived outputs are released under CC BY 4.0. See
+`LICENSE`, `LICENSE-CODE`, and `LICENSE-DATA` for the licence split.

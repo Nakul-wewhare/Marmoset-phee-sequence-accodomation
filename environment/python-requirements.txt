@@ -1,7 +1,5 @@
-# Python packages used by the notebooks in code/
+# Python packages used by Scripts 1, 2a, and 3a
 jupyter
-notebook
-ipykernel
 numpy
 pandas
 scipy
@@ -9,7 +7,6 @@ scikit-learn
 matplotlib
 librosa
 soundfile
-pydub
 fastdtw
 tqdm
 joblib

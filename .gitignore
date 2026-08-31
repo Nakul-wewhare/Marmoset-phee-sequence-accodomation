@@ -9,6 +9,8 @@ __pycache__/
 .pytest_cache/
 .Rproj.user/
 .vscode/
+.venv/
+
+# Large local caches are loaded by default but are not stored in Git.
 distance_matrices/
-glm data/brms_manuscript_outputs-newsession/diagnostics/
-glm data/brms_manuscript_outputs-newsession/models/
+glm data/brms_interaction_outputs/models/

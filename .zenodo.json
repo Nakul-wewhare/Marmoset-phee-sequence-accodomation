@@ -1,6 +1,6 @@
 {
-  "title": "Sequence-level vocal convergence in common marmosets: reproducible repository",
-  "description": "Reproducible repository accompanying the manuscript 'Sequence-level vocal convergence in common marmosets'. The repository contains extracted call WAV files, processed sequence and spectral tables, model-ready analysis tables, and final manuscript summary outputs.",
+  "title": "Sequence-level vocal convergence in common marmosets: analysis repository",
+  "description": "Notebook-first analysis repository accompanying the manuscript 'Sequence-level vocal convergence in common marmosets'. It contains the analysis code, processed sequence and spectral tables, available extracted calls, and model-ready tables. Large distance matrices and model caches are supplied separately when needed.",
   "upload_type": "software",
   "access_right": "open",
   "creators": [
