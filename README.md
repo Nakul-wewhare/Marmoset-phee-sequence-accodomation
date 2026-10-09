@@ -8,7 +8,7 @@ Wewhare et al. (manuscript)
 
 The project tests whether common marmoset pairs become more similar in the acoustic structure and sequence structure of their phee calls after pair formation, and whether this differs between partner and non-partner social contexts.
 
-Everything needed to reproduce the reported acoustic-space figures, sequence-space figures, Bayesian result tables, and final model figure is included. The notebooks use the saved distance matrices and fixed figure coordinates by default, and the R script uses the saved model objects and posterior draws. A normal run therefore reproduces the results without recalculating DTW distances, retraining the VAE, refitting embeddings, or sampling Bayesian models.
+Everything needed to reproduce the reported acoustic-space figures, sequence-space figures, Bayesian result tables, and final model figure is included. The notebooks use the saved distance matrices and fixed figure coordinates by default, and Script 4 uses the saved model objects and posterior draws. A normal primary-analysis run therefore reproduces the results without recalculating DTW distances, retraining the VAE, refitting embeddings, or sampling Bayesian models. Reference outputs for the reviewer-directed Script 6 analyses are also included; rerunning those models requires Bayesian sampling.
 
 ---
 
@@ -215,6 +215,16 @@ The included manuscript reference outputs are in the same folders under concise 
 
 ---
 
+### 5. Reviewer-directed sequence robustness analyses
+
+`code/script_6_sequence_robustness_models.R`
+
+This sensitivity analysis is restricted to Non-partner sequence structure, the outcome and context in which the primary model detected a stage-related decrease in distance. Model 1 compares across-stage distances with the mean of within-Before and within-After distances among same-focal, same-receiver session repertoires. Model 2 compares the Before-to-After change for the three bonded dyads with that for the six nonbonded opposite-sex dyads while retaining all eligible session-level comparisons and accounting for reused sessions.
+
+The included outputs provide the combined Figure S9, the four machine-readable tables underlying Tables S2 and S3, support counts, scaling checks, and model diagnostics. See `results/sequence_robustness/README.md` for the exact inputs, estimands, commands, and file map.
+
+---
+
 ## Reproducing the results
 
 Create the Python environment from the repository root:
@@ -246,6 +256,15 @@ Rscript code/script_4_bayesian_models_and_results.R
 
 The normal workflow uses only the saved calculations. It does not start any of the costly steps.
 
+To validate the Script 6 inputs and Stan data without sampling, or to refit both robustness models, run:
+
+```bash
+Rscript code/script_6_sequence_robustness_models.R --validate-only
+Rscript code/script_6_sequence_robustness_models.R --refit
+```
+
+The full Script 6 fit requires NumPy, a working C++/Stan toolchain, and substantially more time than validation.
+
 ---
 
 ## Optional recalculation
@@ -260,6 +279,7 @@ The expensive operations are kept behind explicit switches:
 ```bash
 Rscript code/script_4_bayesian_models_and_results.R --refit
 ```
+- Script 6 refits its two reviewer-directed robustness models when run with `--refit`; large model and posterior-draw files are regenerated locally and are not included in this minimal repository update.
 
 Recalculated files receive `_rebuilt`, `_recomputed`, `refitted`, or `_reproduced` names so that the accepted inputs and reference results are not silently overwritten.
 
@@ -269,8 +289,8 @@ Recalculated files receive `_rebuilt`, `_recomputed`, `refitted`, or `_reproduce
 
 The cached workflow was tested with Python 3.13 and R 4.5.2. Exact Python
 package versions are listed in `environment/python-requirements.txt`; the R
-installer lists the packages used by Script 4. A working C++/Stan toolchain is
-needed only for the optional `--refit` route.
+installer lists the packages used by Scripts 4 and 6. A working C++/Stan
+toolchain is needed only for the optional `--refit` routes.
 
 ---
 

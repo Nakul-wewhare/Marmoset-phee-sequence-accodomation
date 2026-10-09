@@ -1,0 +1,11 @@
+bonded_status,metric,estimate_median,estimate_mean,lower_95,upper_95,Pr_lt_0,Pr_gt_0,estimand,direction
+bonded,Combined,-1.033787671860026,-1.0332139832216063,-1.4062532315323795,-0.6616256074431146,1,0,Expected After - Before,negative = convergence
+bonded,bigram,-1.234028880163981,-1.232116081231209,-1.6349936999715338,-0.8209371145711952,1,0,Expected After - Before,negative = convergence
+bonded,local_alignment,-1.4691005282864946,-1.4679209943197626,-1.8777759272280945,-1.052220795897077,1,0,Expected After - Before,negative = convergence
+bonded,repeat_A_len,-0.09869977892132706,-0.0978847889174164,-0.5004604133593904,0.3103413000142905,0.683125,0.316875,Expected After - Before,negative = convergence
+bonded,transition_matrix,-1.3350189749026984,-1.3349340684180369,-1.727944788916614,-0.9268245515300935,1,0,Expected After - Before,negative = convergence
+nonbonded,Combined,-0.4450992206921608,-0.44063791591701124,-0.7946573081449916,-0.07788669990376665,0.991375,0.008625,Expected After - Before,negative = convergence
+nonbonded,bigram,-0.4897451400922619,-0.4876609319874975,-0.8621474885161461,-0.10456722775677782,0.9935,0.0065,Expected After - Before,negative = convergence
+nonbonded,local_alignment,-0.600046480116446,-0.5954841767506343,-0.9685430301862172,-0.2121208004941957,0.998625,0.001375,Expected After - Before,negative = convergence
+nonbonded,repeat_A_len,-0.13919190018118685,-0.13687452763556238,-0.5117745286497956,0.24626967038222514,0.760875,0.239125,Expected After - Before,negative = convergence
+nonbonded,transition_matrix,-0.5440132097250446,-0.5425320272943508,-0.9177714845633264,-0.1605969093805359,0.9975,0.0025,Expected After - Before,negative = convergence

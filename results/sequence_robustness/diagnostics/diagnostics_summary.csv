@@ -1,0 +1,3 @@
+model,max_Rhat,min_bulk_ESS,min_tail_ESS,divergences,max_treedepth_hits
+Model 1: stage-variation contrast,1.0053794673301697,1048.5028614857958,2243.5077532314804,0,0
+Model 2: pair specificity,1.0026932697671298,1501.832892813056,2143.1982090173988,0,0

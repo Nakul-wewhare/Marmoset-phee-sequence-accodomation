@@ -1,4 +1,4 @@
-# Install the R packages used by Script 4.
+# Install the R packages used by Scripts 4 and 6.
 
 if (identical(getOption("repos")[["CRAN"]], "@CRAN@")) {
   options(repos = c(CRAN = "https://cloud.r-project.org"))
@@ -11,6 +11,9 @@ required_packages <- c(
   "bayesplot",
   "posterior",
   "patchwork",
+  "reticulate",
+  "digest",
+  "jsonlite",
   "rstan",
   "rstudioapi"
 )

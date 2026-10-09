@@ -1,0 +1,6 @@
+metric,estimate_median,estimate_mean,lower_95,upper_95,Pr_lt_0,Pr_gt_0,estimand,direction
+Combined,-0.5935959561890243,-0.592576067304595,-0.7610984453539148,-0.4202214458159579,1,0,(After - Before)_bonded - (After - Before)_nonbonded,negative = greater convergence among bonded dyads
+bigram,-0.7434778141808756,-0.7444551492437117,-1.0132799124290857,-0.475167302482876,1,0,(After - Before)_bonded - (After - Before)_nonbonded,negative = greater convergence among bonded dyads
+local_alignment,-0.8735342331866254,-0.8724368175691283,-1.1380175217623385,-0.594820742988674,1,0,(After - Before)_bonded - (After - Before)_nonbonded,negative = greater convergence among bonded dyads
+repeat_A_len,0.03764216065328929,0.03898973871814599,-0.23064456727358282,0.31538086229802187,0.388375,0.611625,(After - Before)_bonded - (After - Before)_nonbonded,negative = greater convergence among bonded dyads
+transition_matrix,-0.7938053042339286,-0.7924020411236861,-1.0558957924310264,-0.5316105468728975,1,0,(After - Before)_bonded - (After - Before)_nonbonded,negative = greater convergence among bonded dyads

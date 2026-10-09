@@ -1,0 +1,33 @@
+{
+  "run_mode": "final_fit",
+  "scope": "Non-partner sequence structure only",
+  "generated_by": "code/script_6_sequence_robustness_models.R",
+  "family": "gaussian(identity) with a common residual SD, matching the primary Bayesian analysis (Script 4)",
+  "model_1_formula": "z_distance ~ comparison_type * metric + (1 | focal_id) + (1 | conspecific_id) + (1 | mm(session_1_id, session_2_id))",
+  "model_2_formula": "z_distance ~ stage * bonded_status * metric + (1 + stage || dyad_id) + (1 | mm(individual_1, individual_2)) + (1 | mm(session_1_id, session_2_id))",
+  "model_1_primary_estimand": "Across-stage - 0.5 * (Within-before + Within-after); positive means that the across-stage distance exceeds the mean within-stage distance",
+  "model_2_primary_estimand": "(After - Before)_bonded - (After - Before)_nonbonded; negative supports additional bonded-dyad convergence",
+  "scaling": "Population z score within metric after constructing each model's full comparison universe; never within stage, individual, dyad, or bond status.",
+  "sampling": {
+    "chains": 4,
+    "iterations": 4000,
+    "warmup": 2000,
+    "seed": 123,
+    "adapt_delta": 0.995,
+    "max_treedepth": 15
+  },
+  "input_files": [
+    "data/sequence/session_order_107.csv",
+    "data/sequence/distances/transition_probability_107.npy",
+    "data/sequence/distances/bigram_107.npy",
+    "data/sequence/distances/phee_repeat_107.npy",
+    "data/sequence/distances/local_alignment_107.npy"
+  ],
+  "input_sha256": {
+    "manifest": "b986a7ec0ff783b3a1344ed275334c22c32c24dc9f3a367a73b2b33580503daa",
+    "transition_matrix": "50472b5436c0a1aa9d71a964366913a866b026e69165306c99bccce0fc6d903f",
+    "bigram": "8ff6648e707d404b01c5e1793f8d531014711f3b58e903742f92fab329ec6a44",
+    "repeat_A_len": "4f915ef1ef0bf0164459999879415c5166f236af4f664b40304e67fabecabde7",
+    "local_alignment": "0203611c811af4e0a1630d7e94359c2b82a3e13868af02a9ca35fa26e5adc202"
+  }
+}
